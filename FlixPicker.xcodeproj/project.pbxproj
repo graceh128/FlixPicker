@@ -16,6 +16,7 @@
 		A35EF43A285904EB00595659 /* FlixPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF439285904EB00595659 /* FlixPickerTests.swift */; };
 		A35EF444285904EB00595659 /* FlixPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF443285904EB00595659 /* FlixPickerUITests.swift */; };
 		A35EF446285904EB00595659 /* FlixPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF445285904EB00595659 /* FlixPickerUITestsLaunchTests.swift */; };
+		A35EF4552859166F00595659 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A35EF4542859166F00595659 /* Raleway-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A35EF43F285904EB00595659 /* FlixPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35EF443285904EB00595659 /* FlixPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPickerUITests.swift; sourceTree = "<group>"; };
 		A35EF445285904EB00595659 /* FlixPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A35EF4542859166F00595659 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../raleway/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		A35EF421285904E900595659 /* FlixPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A35EF4542859166F00595659 /* Raleway-Bold.ttf */,
 				A35EF422285904E900595659 /* AppDelegate.swift */,
 				A35EF424285904E900595659 /* SceneDelegate.swift */,
 				A35EF426285904E900595659 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 				A35EF42F285904EB00595659 /* LaunchScreen.storyboard in Resources */,
 				A35EF42C285904EB00595659 /* Assets.xcassets in Resources */,
 				A35EF42A285904E900595659 /* Main.storyboard in Resources */,
+				A35EF4552859166F00595659 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
