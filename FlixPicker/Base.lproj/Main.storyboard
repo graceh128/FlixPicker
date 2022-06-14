@@ -66,7 +66,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frV-1T-rWq">
                                 <rect key="frame" x="54.5" y="138" width="305" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="Php-uX-jPg"/>
                                     <constraint firstAttribute="height" constant="64" id="yyd-Bg-FXE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -87,7 +86,6 @@
                                 <rect key="frame" x="54.5" y="225" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="dZf-Ws-t6w"/>
-                                    <constraint firstAttribute="width" constant="305" id="lfa-mZ-LNH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -107,7 +105,6 @@
                                 <rect key="frame" x="54.5" y="313" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="7vG-bG-vac"/>
-                                    <constraint firstAttribute="width" constant="305" id="eFD-rq-6Ce"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -127,7 +124,6 @@
                                 <rect key="frame" x="54.5" y="403" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="070-1K-73o"/>
-                                    <constraint firstAttribute="width" constant="305" id="G73-et-YgQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -146,7 +142,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOM-I7-gfQ">
                                 <rect key="frame" x="54.5" y="494" width="305" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="nda-aw-GqK"/>
                                     <constraint firstAttribute="height" constant="64" id="oG3-kL-GXs"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -166,7 +161,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sgs-DS-RmM">
                                 <rect key="frame" x="54.5" y="585" width="305" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="ade-nB-sEt"/>
                                     <constraint firstAttribute="height" constant="64" id="ef9-NL-iXg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -186,7 +180,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVg-4c-gGM">
                                 <rect key="frame" x="54.5" y="677" width="305" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="Pvh-MH-ghN"/>
                                     <constraint firstAttribute="height" constant="64" id="fTh-oT-ZBb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -247,8 +240,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
-                                <rect key="frame" x="37" y="822" width="94" height="25"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
+                                <rect key="frame" x="37" y="778" width="94" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -272,10 +265,9 @@
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-Mk-YMx">
-                                <rect key="frame" x="54.5" y="716" width="305" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-Mk-YMx">
+                                <rect key="frame" x="54.5" y="672" width="305" height="64"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="305" id="ceF-Xh-NOa"/>
                                     <constraint firstAttribute="height" constant="64" id="n6E-L5-76g"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -351,10 +343,13 @@
                         <viewLayoutGuide key="safeArea" id="MLz-dy-J3v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="MLz-dy-J3v" firstAttribute="trailing" secondItem="zSc-Mk-YMx" secondAttribute="trailing" constant="54.5" id="3XD-nh-6P3"/>
                             <constraint firstItem="HQc-uA-KyS" firstAttribute="top" secondItem="QNi-mx-2g5" secondAttribute="bottom" constant="10" id="Cgv-Ch-TTV"/>
+                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="top" secondItem="HQc-uA-KyS" secondAttribute="bottom" constant="556" id="DYV-KH-ZeD"/>
                             <constraint firstItem="dp3-yF-Euc" firstAttribute="leading" secondItem="HA7-1o-3Jl" secondAttribute="leading" constant="37" id="Gb2-ot-9mm"/>
                             <constraint firstItem="zSc-Mk-YMx" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="Giq-DV-Lmv"/>
                             <constraint firstItem="zSc-Mk-YMx" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="VSg-Xz-YYb"/>
+                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="54.5" id="ZVj-jR-fE2"/>
                             <constraint firstItem="QNi-mx-2g5" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="g98-fD-HPS"/>
                             <constraint firstItem="HQc-uA-KyS" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="q3l-qT-7Z3"/>
                             <constraint firstItem="dp3-yF-Euc" firstAttribute="top" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="42" id="yC4-z6-FXL"/>
@@ -379,7 +374,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoO-9s-jVe">
-                                <rect key="frame" x="70.5" y="157" width="249" height="54"/>
+                                <rect key="frame" x="82.5" y="120" width="249" height="54"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Random Movie">
@@ -387,14 +382,13 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-Fx-WnX">
-                                <rect key="frame" x="67" y="227" width="279" height="415"/>
+                                <rect key="frame" x="67" y="188" width="280" height="415"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="279" id="F4d-c3-Hvi"/>
-                                    <constraint firstAttribute="height" constant="415" id="Qff-gP-mKD"/>
+                                    <constraint firstAttribute="height" constant="415" id="Kvj-ij-CZC"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txw-s6-hlY">
-                                <rect key="frame" x="37" y="821" width="70" height="24"/>
+                                <rect key="frame" x="37" y="768" width="94" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -412,11 +406,11 @@
                         <constraints>
                             <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="CAx-Bv-TVS"/>
                             <constraint firstItem="GoO-9s-jVe" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="HET-0b-Gzu"/>
-                            <constraint firstItem="GoO-9s-jVe" firstAttribute="top" secondItem="PJX-Vi-F9Z" secondAttribute="top" constant="157" id="KO6-o3-7FB"/>
-                            <constraint firstItem="Txw-s6-hlY" firstAttribute="top" secondItem="pz4-Fx-WnX" secondAttribute="bottom" constant="179" id="jNA-ei-scx"/>
+                            <constraint firstItem="GoO-9s-jVe" firstAttribute="top" secondItem="PJX-Vi-F9Z" secondAttribute="top" constant="120" id="Mtr-Kq-A05"/>
                             <constraint firstItem="Txw-s6-hlY" firstAttribute="leading" secondItem="oge-ur-y7g" secondAttribute="leading" constant="37" id="sHx-NB-WhV"/>
                             <constraint firstAttribute="trailing" secondItem="Txw-s6-hlY" secondAttribute="trailing" constant="283" id="uAj-YV-fSk"/>
-                            <constraint firstItem="pz4-Fx-WnX" firstAttribute="top" secondItem="GoO-9s-jVe" secondAttribute="bottom" constant="16" id="yWV-Q4-uLO"/>
+                            <constraint firstAttribute="bottom" secondItem="Txw-s6-hlY" secondAttribute="bottom" constant="50" id="wlt-jg-Zum"/>
+                            <constraint firstItem="pz4-Fx-WnX" firstAttribute="top" secondItem="GoO-9s-jVe" secondAttribute="bottom" constant="14" id="z3f-XS-XRa"/>
                             <constraint firstItem="pz4-Fx-WnX" firstAttribute="leading" secondItem="PJX-Vi-F9Z" secondAttribute="leading" constant="67" id="zui-nf-XNc"/>
                         </constraints>
                     </view>
