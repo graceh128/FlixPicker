@@ -20,6 +20,7 @@
 		A36D534B285A303100EAE9EE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534A285A303100EAE9EE /* FirstViewController.swift */; };
 		A36D534D285A306000EAE9EE /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534C285A306000EAE9EE /* GenreViewController.swift */; };
 		A36D534F285A332E00EAE9EE /* ActionRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */; };
+		A36D5351285A538A00EAE9EE /* RandomMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D5350285A538A00EAE9EE /* RandomMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A36D534A285A303100EAE9EE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A36D534C285A306000EAE9EE /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
 		A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRecViewController.swift; sourceTree = "<group>"; };
+		A36D5350285A538A00EAE9EE /* RandomMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				A36D534A285A303100EAE9EE /* FirstViewController.swift */,
 				A36D534C285A306000EAE9EE /* GenreViewController.swift */,
 				A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */,
+				A36D5350285A538A00EAE9EE /* RandomMovieViewController.swift */,
 			);
 			path = FlixPicker;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36D5351285A538A00EAE9EE /* RandomMovieViewController.swift in Sources */,
 				A35EF427285904E900595659 /* ViewController.swift in Sources */,
 				A36D534F285A332E00EAE9EE /* ActionRecViewController.swift in Sources */,
 				A36D534D285A306000EAE9EE /* GenreViewController.swift in Sources */,

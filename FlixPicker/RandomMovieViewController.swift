@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  RandomMovieViewController.swift
 //  FlixPicker
 //
 //  Created by Grace Huang on 6/15/22.
@@ -7,15 +7,20 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class RandomMovieViewController: UIViewController {
+    @IBOutlet weak var randomMovieLabel: UILabel!
+    @IBOutlet weak var randomPosterImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
-             self.performSegue(withIdentifier: "leadingToTutorial", sender: self)
-        })
+        var randomSet = [["jurassicPoster":"Jurassic Park", "inceptionPoster":"Inception", "starWarsPoster":"Star Wars", "batmanPoster":"The Batman"]]
+
+        func randomiseSet (){
+            let randomNumber:Int = Int(arc4random_uniform(5))
+            randomPosterImage.image = UIImage(named: randomSet[randomNumber]["randomPosterImage"]!)
+        }
     }
     
 
@@ -29,4 +34,6 @@ class FirstViewController: UIViewController {
     }
     */
 
+
 }
+
