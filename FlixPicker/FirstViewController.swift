@@ -11,12 +11,12 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let timer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(timeToMoveOn), userInfo: nil, repeats: false)
+            }
 
-        // Do any additional setup after loading the view.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2, execute: {
-             self.performSegue(withIdentifier: "leadingToTutorial", sender: self)
-        })
-    }
+            @objc func timeToMoveOn() {
+                self.performSegue(withIdentifier: "goToGenreUI", sender: self)
+            }
     
 
     /*
@@ -30,3 +30,5 @@ class FirstViewController: UIViewController {
     */
 
 }
+
+

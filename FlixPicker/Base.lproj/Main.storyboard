@@ -44,6 +44,9 @@
                             <constraint firstItem="Bpd-tV-eAi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="tIA-p8-FZX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="8f1-Rg-l3g" kind="modal" identifier="goToGenreUI" id="Hrb-ER-DRN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -243,6 +246,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-s4-R4k">
+                                <rect key="frame" x="291" y="475" width="38" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SeG-Op-mX6">
+                                <rect key="frame" x="77" y="478" width="38" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3j-cU-b7r">
+                                <rect key="frame" x="86" y="214" width="29" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bW8-je-KHa">
+                                <rect key="frame" x="291" y="214" width="31" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
                                 <rect key="frame" x="45" y="822" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
@@ -257,13 +296,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNi-mx-2g5">
-                                <rect key="frame" x="36.5" y="96" width="341" height="30"/>
+                                <rect key="frame" x="37" y="96" width="340" height="30"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the name to learn more" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQc-uA-KyS">
-                                <rect key="frame" x="68.5" y="136" width="277" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQc-uA-KyS">
+                                <rect key="frame" x="76.5" y="136" width="261.5" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -291,13 +330,13 @@
                                     <segue destination="h1g-fC-SWT" kind="show" id="A6x-rL-ntj"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="61RLRZnbc+L._AC_SY741_" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-cD-Ifb">
-                                <rect key="frame" x="64" y="190" width="117" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jurassicPoster" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-cD-Ifb">
+                                <rect key="frame" x="49" y="190" width="149" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inception_original_us_one_sheet_buy_now_at_starstills__53755__70259.1394512651" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-7c-XuV">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inceptionPoster" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-7c-XuV">
                                 <rect key="frame" x="228" y="190" width="121" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-XH-VKP">
                                 <rect key="frame" x="40" y="385" width="164" height="31"/>
@@ -323,13 +362,13 @@
                                     <action selector="inceptionButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="b24-8U-rkg"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="81P3lDJbjCL._AC_SY741_" translatesAutoresizingMaskIntoConstraints="NO" id="qhB-8X-AAR">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="starWarsPoster" translatesAutoresizingMaskIntoConstraints="NO" id="qhB-8X-AAR">
                                 <rect key="frame" x="66" y="449" width="117" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-Fr-mdD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="batmanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-Fr-mdD">
                                 <rect key="frame" x="230" y="449" width="121" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-X7-gxy">
                                 <rect key="frame" x="42" y="644" width="164" height="31"/>
@@ -355,38 +394,6 @@
                                     <action selector="batmanButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="GHu-GT-O84"/>
                                 </connections>
                             </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3j-cU-b7r">
-                                <rect key="frame" x="34" y="190" width="29" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bW8-je-KHa">
-                                <rect key="frame" x="350" y="191" width="31" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SeG-Op-mX6">
-                                <rect key="frame" x="30" y="451" width="38" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-s4-R4k">
-                                <rect key="frame" x="355" y="450" width="38" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MLz-dy-J3v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -399,7 +406,7 @@
                             <constraint firstItem="zSc-Mk-YMx" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="54.5" id="ZVj-jR-fE2"/>
                             <constraint firstItem="dp3-yF-Euc" firstAttribute="leading" secondItem="HA7-1o-3Jl" secondAttribute="leading" constant="45" id="dyL-6L-FA4"/>
                             <constraint firstItem="QNi-mx-2g5" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="g98-fD-HPS"/>
-                            <constraint firstItem="HQc-uA-KyS" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="q3l-qT-7Z3"/>
+                            <constraint firstItem="HQc-uA-KyS" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="sAR-Dd-KMF"/>
                             <constraint firstItem="dp3-yF-Euc" firstAttribute="top" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="42" id="yC4-z6-FXL"/>
                             <constraint firstItem="QNi-mx-2g5" firstAttribute="top" secondItem="MLz-dy-J3v" secondAttribute="top" constant="52" id="zgg-90-FHV"/>
                         </constraints>
@@ -471,7 +478,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Movie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baW-FX-Mrd">
-                                <rect key="frame" x="82.5" y="160" width="249" height="42"/>
+                                <rect key="frame" x="82.5" y="160" width="249" height="41"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -506,12 +513,12 @@
         <segue reference="vcf-bO-Iiu"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="61RLRZnbc+L._AC_SY741_" width="494" height="741"/>
-        <image name="81P3lDJbjCL._AC_SY741_" width="456" height="697"/>
-        <image name="MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_FMjpg_UX1000_" width="1000" height="1482"/>
         <image name="Untitled design" width="500" height="500"/>
         <image name="arrowtriangle.left.fill" catalog="system" width="128" height="113"/>
-        <image name="inception_original_us_one_sheet_buy_now_at_starstills__53755__70259.1394512651" width="866" height="1280"/>
+        <image name="batmanPoster" width="1000" height="1482"/>
+        <image name="inceptionPoster" width="866" height="1280"/>
+        <image name="jurassicPoster" width="494" height="741"/>
+        <image name="starWarsPoster" width="456" height="697"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
