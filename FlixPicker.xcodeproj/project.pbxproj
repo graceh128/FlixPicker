@@ -16,6 +16,10 @@
 		A35EF43A285904EB00595659 /* FlixPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF439285904EB00595659 /* FlixPickerTests.swift */; };
 		A35EF444285904EB00595659 /* FlixPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF443285904EB00595659 /* FlixPickerUITests.swift */; };
 		A35EF446285904EB00595659 /* FlixPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF445285904EB00595659 /* FlixPickerUITestsLaunchTests.swift */; };
+		A36D5349285A2FAF00EAE9EE /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A36D5348285A2FAF00EAE9EE /* Raleway-Bold.ttf */; };
+		A36D534B285A303100EAE9EE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534A285A303100EAE9EE /* FirstViewController.swift */; };
+		A36D534D285A306000EAE9EE /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534C285A306000EAE9EE /* GenreViewController.swift */; };
+		A36D534F285A332E00EAE9EE /* ActionRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		A35EF43F285904EB00595659 /* FlixPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35EF443285904EB00595659 /* FlixPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPickerUITests.swift; sourceTree = "<group>"; };
 		A35EF445285904EB00595659 /* FlixPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A36D5348285A2FAF00EAE9EE /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../raleway/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		A36D534A285A303100EAE9EE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A36D534C285A306000EAE9EE /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRecViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		A35EF421285904E900595659 /* FlixPicker */ = {
 			isa = PBXGroup;
 			children = (
+				A36D5348285A2FAF00EAE9EE /* Raleway-Bold.ttf */,
 				A35EF422285904E900595659 /* AppDelegate.swift */,
 				A35EF424285904E900595659 /* SceneDelegate.swift */,
 				A35EF426285904E900595659 /* ViewController.swift */,
@@ -106,6 +115,9 @@
 				A35EF42B285904EB00595659 /* Assets.xcassets */,
 				A35EF42D285904EB00595659 /* LaunchScreen.storyboard */,
 				A35EF430285904EB00595659 /* Info.plist */,
+				A36D534A285A303100EAE9EE /* FirstViewController.swift */,
+				A36D534C285A306000EAE9EE /* GenreViewController.swift */,
+				A36D534E285A332E00EAE9EE /* ActionRecViewController.swift */,
 			);
 			path = FlixPicker;
 			sourceTree = "<group>";
@@ -234,6 +246,7 @@
 				A35EF42F285904EB00595659 /* LaunchScreen.storyboard in Resources */,
 				A35EF42C285904EB00595659 /* Assets.xcassets in Resources */,
 				A35EF42A285904E900595659 /* Main.storyboard in Resources */,
+				A36D5349285A2FAF00EAE9EE /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A35EF427285904E900595659 /* ViewController.swift in Sources */,
+				A36D534F285A332E00EAE9EE /* ActionRecViewController.swift in Sources */,
+				A36D534D285A306000EAE9EE /* GenreViewController.swift in Sources */,
 				A35EF423285904E900595659 /* AppDelegate.swift in Sources */,
 				A35EF425285904E900595659 /* SceneDelegate.swift in Sources */,
+				A36D534B285A303100EAE9EE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
