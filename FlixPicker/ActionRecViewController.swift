@@ -13,10 +13,6 @@ class ActionRecViewController: UIViewController {
     @IBOutlet weak var inceptionWebView: WKWebView!
     @IBOutlet weak var starWarsWebView: WKWebView!
     @IBOutlet weak var batmanWebView: WKWebView!
-    @IBOutlet weak var jurassicPoster: UIImageView!
-    @IBOutlet weak var inceptionPoster: UIImageView!
-    @IBOutlet weak var starWarsPoster: UIImageView!
-    @IBOutlet weak var batmanPoster: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,18 +42,5 @@ class ActionRecViewController: UIViewController {
     }
     
  
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
+
