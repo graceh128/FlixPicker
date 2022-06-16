@@ -57,7 +57,7 @@
             <objects>
                 <viewController id="8f1-Rg-l3g" customClass="GenreViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kw5-bj-41X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIck a movie genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPg-rr-Y7I">
@@ -85,7 +85,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="NYm-OJ-cxd" kind="show" id="rjO-RL-zLS"/>
+                                    <segue destination="NYm-OJ-cxd" kind="push" id="JwB-A9-KLP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S1N-6D-p4e">
@@ -107,7 +107,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="LCq-ih-dOW" kind="show" id="Yum-37-mf2"/>
+                                    <segue destination="LCq-ih-dOW" kind="show" id="vRL-2u-y9g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMU-Vj-I04">
@@ -129,7 +129,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="hec-dN-h3u" kind="show" id="RVF-Mc-moA"/>
+                                    <segue destination="hec-dN-h3u" kind="show" id="1FL-KN-c1w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgI-Wp-jF1">
@@ -151,7 +151,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="UWY-SY-LT3" kind="show" id="MYk-yy-DYn"/>
+                                    <segue destination="UWY-SY-LT3" kind="show" id="9Z8-29-MIv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOM-I7-gfQ">
@@ -252,7 +252,7 @@
             <objects>
                 <viewController id="NYm-OJ-cxd" customClass="ActionRecViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HA7-1o-3Jl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-s4-R4k">
@@ -292,7 +292,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
-                                <rect key="frame" x="45" y="822" width="70" height="24"/>
+                                <rect key="frame" x="45" y="778" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -300,9 +300,6 @@
                                     <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
-                                <connections>
-                                    <segue destination="8f1-Rg-l3g" kind="show" id="vcf-bO-Iiu"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNi-mx-2g5">
                                 <rect key="frame" x="29" y="98" width="357" height="30"/>
@@ -311,13 +308,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQc-uA-KyS">
-                                <rect key="frame" x="76.5" y="136" width="261.5" height="24"/>
+                                <rect key="frame" x="76.5" y="92" width="261.5" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-Mk-YMx">
-                                <rect key="frame" x="54.5" y="716" width="305" height="64"/>
+                                <rect key="frame" x="54.5" y="672" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="n6E-L5-76g"/>
                                 </constraints>
@@ -337,7 +334,7 @@
                                 <connections>
                                     <action selector="pickButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="ik5-Ht-PAi"/>
                                     <action selector="randomMovieButton:" destination="yIx-nn-jhq" eventType="touchUpInside" id="ZCU-dY-pZs"/>
-                                    <segue destination="h1g-fC-SWT" kind="show" id="Qq2-1n-l2l"/>
+                                    <segue destination="h1g-fC-SWT" kind="show" id="aOb-QC-K4f"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jurassicPoster" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-cD-Ifb">
@@ -445,7 +442,7 @@
             <objects>
                 <viewController id="LCq-ih-dOW" customClass="ComedyRecViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7ia-f3-aYn">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E5N-t1-58p">
@@ -621,18 +618,18 @@
             <objects>
                 <viewController id="h1g-fC-SWT" customClass="RandomMovieViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oge-ur-y7g">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-Fx-WnX">
-                                <rect key="frame" x="49.5" y="240.5" width="315" height="415"/>
+                                <rect key="frame" x="49.5" y="213.5" width="315" height="415"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="315" id="5T4-3G-dYk"/>
                                     <constraint firstAttribute="height" constant="415" id="Kvj-ij-CZC"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NN-fr-xFM">
-                                <rect key="frame" x="45" y="822" width="70" height="24"/>
+                                <rect key="frame" x="45" y="795" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -642,7 +639,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHN-dE-S07">
-                                <rect key="frame" x="54.5" y="716" width="305" height="64"/>
+                                <rect key="frame" x="54.5" y="689" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Urq-kL-WlJ"/>
                                 </constraints>
@@ -668,7 +665,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZs-IF-sXh">
-                                <rect key="frame" x="82.5" y="139" width="249" height="54"/>
+                                <rect key="frame" x="82.5" y="95" width="249" height="54"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Random Movie">
@@ -703,9 +700,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="GS4-yV-vVw"/>
                     <connections>
-                        <outlet property="randomActionMovieButton" destination="SZs-IF-sXh" id="ESR-Za-ngB"/>
-                        <outlet property="randomActionPoster" destination="pz4-Fx-WnX" id="iZi-Vu-kTs"/>
+                        <outlet property="randomActionMovieButton" destination="SZs-IF-sXh" id="21J-0o-WAH"/>
+                        <outlet property="randomActionPoster" destination="pz4-Fx-WnX" id="Bla-cE-smv"/>
                         <outlet property="randomActionURL" destination="fng-qy-0c9" id="HQw-cF-cmw"/>
+                        <outlet property="randomActionWebView" destination="fng-qy-0c9" id="sr6-GG-WeE"/>
                         <outlet property="randomMovie" destination="SZs-IF-sXh" id="6g0-rP-NyL"/>
                         <outlet property="randomPoster" destination="pz4-Fx-WnX" id="xb3-Ke-D9f"/>
                         <outlet property="randomPosterImageView" destination="pz4-Fx-WnX" id="M9n-Ty-fD7"/>
@@ -720,7 +718,7 @@
             <objects>
                 <viewController id="hec-dN-h3u" customClass="DramaRecViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gvo-Ib-weq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f70-jm-Xch">
@@ -779,7 +777,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fightClubPoster" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-Or-cky">
-                                <rect key="frame" x="225" y="456" width="161" height="192"/>
+                                <rect key="frame" x="224" y="456" width="161" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ets-oo-swI">
@@ -875,13 +873,6 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cL-6R-MAX">
-                                <rect key="frame" x="193" y="315" width="261.5" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
-                                <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-ux-NYo">
                                 <rect key="frame" x="29" y="72" width="357" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -910,7 +901,7 @@
             <objects>
                 <viewController id="UWY-SY-LT3" customClass="FantasyRecViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cmk-SD-IwG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxj-kN-HLT">
@@ -950,7 +941,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aquamanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="JKB-Li-YGU">
-                                <rect key="frame" x="225" y="449" width="145" height="183"/>
+                                <rect key="frame" x="224" y="449" width="145" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdj-BB-Vpj">
@@ -968,7 +959,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="encantoPoster" translatesAutoresizingMaskIntoConstraints="NO" id="h3x-Oe-jTp">
-                                <rect key="frame" x="225" y="156" width="145" height="183"/>
+                                <rect key="frame" x="224" y="162" width="145" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shangchiPoster" translatesAutoresizingMaskIntoConstraints="NO" id="Eqp-ul-xtx">
@@ -976,7 +967,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="i2C-Ca-Ys4">
-                                <rect key="frame" x="39" y="325" width="146" height="82"/>
+                                <rect key="frame" x="39" y="326" width="146" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -985,13 +976,14 @@
                                 </state>
                                 <connections>
                                     <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="x4Z-Te-TFU"/>
+                                    <action selector="harryPotterButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="IMq-J8-J7J"/>
                                     <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="uge-bZ-aPx"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="0mo-Nf-MdU"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="EbR-nZ-rml"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hPe-Rz-kpa">
-                                <rect key="frame" x="225" y="323" width="144" height="82"/>
+                                <rect key="frame" x="225" y="324" width="144" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -999,6 +991,7 @@
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="encantoButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="lqL-xv-sZF"/>
                                     <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="hTV-zn-A3N"/>
                                     <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="oxd-k1-J4t"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="cIK-IM-w4P"/>
@@ -1018,6 +1011,7 @@
                                     <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="tSZ-H3-d10"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="DBk-Xg-gqB"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="ejD-Jg-z5p"/>
+                                    <action selector="shangChiButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="Lwn-TN-opu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="42z-w3-v5o">
@@ -1029,6 +1023,7 @@
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
+                                    <action selector="aquamanButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="GCv-Ap-Ndd"/>
                                     <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="DHk-eF-Nwt"/>
                                     <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="4QK-iN-gEd"/>
                                     <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="9Q9-Vy-G9B"/>
@@ -1069,7 +1064,7 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="harryPotterPoster" translatesAutoresizingMaskIntoConstraints="NO" id="9nL-Cu-DRe">
-                                <rect key="frame" x="135" y="198" width="145" height="183"/>
+                                <rect key="frame" x="39" y="162" width="145" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1077,15 +1072,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xuS-as-VvX"/>
+                    <connections>
+                        <outlet property="aquamanButtonTapped" destination="JKB-Li-YGU" id="6th-Cl-iaj"/>
+                        <outlet property="aquamanView" destination="1wX-U5-ae2" id="d8s-Hv-Xm7"/>
+                        <outlet property="encantoView" destination="3x4-T7-3eK" id="VZT-yH-tuC"/>
+                        <outlet property="harryPotterWebView" destination="pxj-kN-HLT" id="YmJ-YD-D0W"/>
+                        <outlet property="shangChiButtonTapped" destination="Eqp-ul-xtx" id="T7g-15-8zx"/>
+                        <outlet property="shangChiView" destination="HJW-F7-btL" id="V23-6z-s5C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z0y-tj-41n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3757.971014492754" y="79.6875"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="vcf-bO-Iiu"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design" width="500" height="500"/>
         <image name="aquamanPoster" width="220" height="326"/>

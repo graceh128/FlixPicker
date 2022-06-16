@@ -5,7 +5,8 @@
 //  Created by Grace Huang on 6/15/22.
 //
 
-/*import UIKit
+import UIKit
+import WebKit
 
 class RandomMovieViewController: UIViewController {
     @IBOutlet weak var randomActionPoster: UIImageView!
@@ -15,28 +16,23 @@ class RandomMovieViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
         var actionMovies = ["jurassicPoster":"Jurassic Park", "inceptionPoster":"Inception", "starWarsPoster":"Star Wars", "batmanPoster":"The Batman"]
-        var actionMovieURL = ["Jurassic Park":"https://www.imdb.com/title/tt0107290/", "Inception":"https://www.imdb.com/title/tt1877830/", "Star Wars":"https://www.imdb.com/title/tt0076759/", "The Batman": "https://www.imdb.com/title/tt1877830/"]
 
         func randomActionMovie () {
-            var randomNumber:Int = Int.random(in: 0..<(actionMovies.count))
-            var randomAction = actionMovies[randomNumber]
-            randomActionPoster.image = UIImage(named: "\(randomAction)")
-            randomActionMovieButton.setTitle(actionMovies[randomAction]), for: .normal)
-            randomMovie.setTitle("The Batman",for: .normal)
+            var randomAction = actionMovies.randomElement()
+            var name = randomAction?.key
+            randomActionPoster.image = UIImage(named: "\(name!)")
+            randomActionMovieButton.setTitle(actionMovies[name!], for: .normal)
         }
-
-
-}
-    let googleURL = URL(string: "https://www.google.com")
-   randomActionWebView.load(URLRequest(url:googleURL!))
-    
-    @IBAction func randomActionTitleTapped(_ sender: Any) {
-        let googleURL = URL(string: actionMovieURL[""])
-        UIApplication.shared.open(googleURL!)
+        let googleURL = URL(string: "https://www.google.com")
+        randomActionWebView.load(URLRequest(url:googleURL!))
     }
+    var actionMovieURL = ["Jurassic Park":"https://www.imdb.com/title/tt0107290/", "Inception":"https://www.imdb.com/title/tt1877830/", "Star Wars":"https://www.imdb.com/title/tt0076759/", "The Batman": "https://www.imdb.com/title/tt1877830/"]
     
-}
 
-*/
+    @IBAction func randomActionButtonTapped(_ sender: Any) {
+        let title = "\(String(describing: randomActionMovieButton.titleLabel))"
+        let googleURL = URL(string: actionMovieURL["\(title)"] ?? "https://www.imdb.com/title/tt1877830/")
+             UIApplication.shared.open(googleURL!)
+}
+}

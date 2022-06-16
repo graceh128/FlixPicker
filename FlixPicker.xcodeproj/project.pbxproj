@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3112874E285ADDAF005F3DC3 /* ComedyRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112874D285ADDAF005F3DC3 /* ComedyRecViewController.swift */; };
-		312CA7E6285B7D5A00777CE2 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 312CA7E5285B7D5A00777CE2 /* Raleway-Bold.ttf */; };
 		312CA7E8285B7DF900777CE2 /* DramaRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312CA7E7285B7DF900777CE2 /* DramaRecViewController.swift */; };
+		A34EF6B9285B892E00247D5F /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A34EF6B8285B892E00247D5F /* Raleway-Bold.ttf */; };
+		A34EF6BB285B896400247D5F /* FantasyRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34EF6BA285B896400247D5F /* FantasyRecViewController.swift */; };
 		A35EF423285904E900595659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF422285904E900595659 /* AppDelegate.swift */; };
 		A35EF425285904E900595659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF424285904E900595659 /* SceneDelegate.swift */; };
 		A35EF427285904E900595659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF426285904E900595659 /* ViewController.swift */; };
@@ -44,8 +45,9 @@
 
 /* Begin PBXFileReference section */
 		3112874D285ADDAF005F3DC3 /* ComedyRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyRecViewController.swift; sourceTree = "<group>"; };
-		312CA7E5285B7D5A00777CE2 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../Downloads/Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		312CA7E7285B7DF900777CE2 /* DramaRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DramaRecViewController.swift; sourceTree = "<group>"; };
+		A34EF6B8285B892E00247D5F /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		A34EF6BA285B896400247D5F /* FantasyRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyRecViewController.swift; sourceTree = "<group>"; };
 		A35EF41F285904E900595659 /* FlixPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35EF422285904E900595659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35EF424285904E900595659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +115,7 @@
 		A35EF421285904E900595659 /* FlixPicker */ = {
 			isa = PBXGroup;
 			children = (
-				312CA7E5285B7D5A00777CE2 /* Raleway-Bold.ttf */,
+				A34EF6B8285B892E00247D5F /* Raleway-Bold.ttf */,
 				A35EF422285904E900595659 /* AppDelegate.swift */,
 				A35EF424285904E900595659 /* SceneDelegate.swift */,
 				A35EF426285904E900595659 /* ViewController.swift */,
@@ -127,6 +129,7 @@
 				3112874D285ADDAF005F3DC3 /* ComedyRecViewController.swift */,
 				312CA7E7285B7DF900777CE2 /* DramaRecViewController.swift */,
 				A36D5350285A538A00EAE9EE /* RandomMovieViewController.swift */,
+				A34EF6BA285B896400247D5F /* FantasyRecViewController.swift */,
 			);
 			path = FlixPicker;
 			sourceTree = "<group>";
@@ -255,7 +258,7 @@
 				A35EF42F285904EB00595659 /* LaunchScreen.storyboard in Resources */,
 				A35EF42C285904EB00595659 /* Assets.xcassets in Resources */,
 				A35EF42A285904E900595659 /* Main.storyboard in Resources */,
-				312CA7E6285B7D5A00777CE2 /* Raleway-Bold.ttf in Resources */,
+				A34EF6B9285B892E00247D5F /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +291,7 @@
 				A35EF423285904E900595659 /* AppDelegate.swift in Sources */,
 				A35EF425285904E900595659 /* SceneDelegate.swift in Sources */,
 				312CA7E8285B7DF900777CE2 /* DramaRecViewController.swift in Sources */,
+				A34EF6BB285B896400247D5F /* FantasyRecViewController.swift in Sources */,
 				A36D534B285A303100EAE9EE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
