@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3112874E285ADDAF005F3DC3 /* ComedyRecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3112874D285ADDAF005F3DC3 /* ComedyRecViewController.swift */; };
-		31A09E13285AD9CC00902E8E /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31A09E12285AD9CC00902E8E /* Raleway-Bold.ttf */; };
+		A333B112285AF9FD009ECAF4 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A333B111285AF9FD009ECAF4 /* Raleway-Bold.ttf */; };
 		A35EF423285904E900595659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF422285904E900595659 /* AppDelegate.swift */; };
 		A35EF425285904E900595659 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF424285904E900595659 /* SceneDelegate.swift */; };
 		A35EF427285904E900595659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35EF426285904E900595659 /* ViewController.swift */; };
@@ -43,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3112874D285ADDAF005F3DC3 /* ComedyRecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComedyRecViewController.swift; sourceTree = "<group>"; };
-		31A09E12285AD9CC00902E8E /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../Downloads/Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		A333B111285AF9FD009ECAF4 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Bold.ttf"; path = "../../../Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		A35EF41F285904E900595659 /* FlixPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35EF422285904E900595659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A35EF424285904E900595659 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		A35EF421285904E900595659 /* FlixPicker */ = {
 			isa = PBXGroup;
 			children = (
-				31A09E12285AD9CC00902E8E /* Raleway-Bold.ttf */,
+				A333B111285AF9FD009ECAF4 /* Raleway-Bold.ttf */,
 				A35EF422285904E900595659 /* AppDelegate.swift */,
 				A35EF424285904E900595659 /* SceneDelegate.swift */,
 				A35EF426285904E900595659 /* ViewController.swift */,
@@ -252,7 +252,7 @@
 				A35EF42F285904EB00595659 /* LaunchScreen.storyboard in Resources */,
 				A35EF42C285904EB00595659 /* Assets.xcassets in Resources */,
 				A35EF42A285904E900595659 /* Main.storyboard in Resources */,
-				31A09E13285AD9CC00902E8E /* Raleway-Bold.ttf in Resources */,
+				A333B112285AF9FD009ECAF4 /* Raleway-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

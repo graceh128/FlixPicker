@@ -15,7 +15,7 @@ class ActionRecViewController: UIViewController {
     @IBOutlet weak var batmanWebView: WKWebView!
     @IBOutlet weak var jurassicPoster: UIImageView!
     @IBOutlet weak var inceptionPoster: UIImageView!
-    @IBOutlet weak var starPoster: UIImageView!
+    @IBOutlet weak var starWarsPoster: UIImageView!
     @IBOutlet weak var batmanPoster: UIImageView!
     
     override func viewDidLoad() {
