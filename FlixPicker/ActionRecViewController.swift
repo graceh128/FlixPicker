@@ -13,6 +13,10 @@ class ActionRecViewController: UIViewController {
     @IBOutlet weak var inceptionWebView: WKWebView!
     @IBOutlet weak var starWarsWebView: WKWebView!
     @IBOutlet weak var batmanWebView: WKWebView!
+    @IBOutlet weak var jurassicPoster: UIImageView!
+    @IBOutlet weak var inceptionPoster: UIImageView!
+    @IBOutlet weak var starPoster: UIImageView!
+    @IBOutlet weak var batmanPoster: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +45,9 @@ class ActionRecViewController: UIViewController {
         UIApplication.shared.open(googleURL!)
     }
     
-    
+    @IBAction func pickButtonTapped(_ sender: Any) {
+    }
+    randomActionMovie()
     
     
     

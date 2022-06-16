@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FlixPicker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stX-T5-g2O">
-                                <rect key="frame" x="90.5" y="545" width="233" height="59"/>
+                                <rect key="frame" x="98.5" y="545" width="217" height="59"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIck a movie genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPg-rr-Y7I">
-                                <rect key="frame" x="93.5" y="111" width="227" height="30"/>
+                                <rect key="frame" x="100.5" y="111" width="213.5" height="30"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -326,6 +326,7 @@
                                     <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="pickButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="ik5-Ht-PAi"/>
                                     <action selector="randomMovieButton:" destination="yIx-nn-jhq" eventType="touchUpInside" id="ZCU-dY-pZs"/>
                                     <segue destination="h1g-fC-SWT" kind="show" id="A6x-rL-ntj"/>
                                 </connections>
@@ -335,7 +336,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inceptionPoster" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-7c-XuV">
-                                <rect key="frame" x="228" y="190" width="121" height="179"/>
+                                <rect key="frame" x="227" y="190" width="121" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-XH-VKP">
@@ -367,7 +368,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="batmanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-Fr-mdD">
-                                <rect key="frame" x="230" y="449" width="121" height="179"/>
+                                <rect key="frame" x="228" y="449" width="121" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-X7-gxy">
@@ -415,9 +416,13 @@
                     <navigationItem key="navigationItem" id="p4h-qG-94S"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="batmanPoster" destination="8H7-Fr-mdD" id="iza-T6-dIr"/>
                         <outlet property="batmanWebView" destination="mFA-s4-R4k" id="hXi-7n-b7e"/>
+                        <outlet property="inceptionPoster" destination="CR0-7c-XuV" id="ogk-b1-aKz"/>
                         <outlet property="inceptionWebView" destination="bW8-je-KHa" id="ncx-pI-wcL"/>
+                        <outlet property="jurassicPoster" destination="Sa3-cD-Ifb" id="sa7-R1-lHC"/>
                         <outlet property="jurassicWebView" destination="J3j-cU-b7r" id="Eu1-lt-MVv"/>
+                        <outlet property="starPoster" destination="qhB-8X-AAR" id="Cpq-Df-wjn"/>
                         <outlet property="starWarsWebView" destination="SeG-Op-mX6" id="U6A-d2-PhI"/>
                     </connections>
                 </viewController>
@@ -442,7 +447,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NN-fr-xFM">
-                                <rect key="frame" x="45" y="822" width="70" height="24"/>
+                                <rect key="frame" x="45" y="822" width="68" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -477,30 +482,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Movie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baW-FX-Mrd">
-                                <rect key="frame" x="82.5" y="160" width="249" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZs-IF-sXh">
+                                <rect key="frame" x="88" y="149" width="238" height="53"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
-                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Random Movie">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PJX-Vi-F9Z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="SZs-IF-sXh" firstAttribute="top" secondItem="PJX-Vi-F9Z" secondAttribute="top" constant="105" id="7wp-Ie-UaA"/>
                             <constraint firstItem="PJX-Vi-F9Z" firstAttribute="trailing" secondItem="bHN-dE-S07" secondAttribute="trailing" constant="54.5" id="GXv-TT-5A7"/>
                             <constraint firstItem="bHN-dE-S07" firstAttribute="leading" secondItem="PJX-Vi-F9Z" secondAttribute="leading" constant="54.5" id="H4P-MA-ieJ"/>
                             <constraint firstItem="bHN-dE-S07" firstAttribute="top" secondItem="pz4-Fx-WnX" secondAttribute="bottom" constant="60.5" id="Mh0-S8-1ha"/>
-                            <constraint firstItem="baW-FX-Mrd" firstAttribute="top" secondItem="PJX-Vi-F9Z" secondAttribute="top" constant="116" id="PO8-GG-gec"/>
                             <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerY" secondItem="oge-ur-y7g" secondAttribute="centerY" id="VPB-LP-EcE"/>
                             <constraint firstItem="5NN-fr-xFM" firstAttribute="leading" secondItem="PJX-Vi-F9Z" secondAttribute="leading" constant="45" id="hVL-mH-pdz"/>
-                            <constraint firstItem="baW-FX-Mrd" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="i0M-fg-aJc"/>
                             <constraint firstItem="5NN-fr-xFM" firstAttribute="top" secondItem="bHN-dE-S07" secondAttribute="bottom" constant="42" id="qql-fL-VBg"/>
+                            <constraint firstItem="SZs-IF-sXh" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="rha-sE-PfQ"/>
                             <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="zB8-U5-mMl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GS4-yV-vVw"/>
                     <connections>
-                        <outlet property="randomMovieLabel" destination="baW-FX-Mrd" id="5Ao-Io-v64"/>
+                        <outlet property="randomMovie" destination="SZs-IF-sXh" id="6g0-rP-NyL"/>
+                        <outlet property="randomPoster" destination="pz4-Fx-WnX" id="xb3-Ke-D9f"/>
                         <outlet property="randomPosterImageView" destination="pz4-Fx-WnX" id="M9n-Ty-fD7"/>
                     </connections>
                 </viewController>

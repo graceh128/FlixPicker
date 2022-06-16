@@ -8,21 +8,33 @@
 import UIKit
 
 class RandomMovieViewController: UIViewController {
-    @IBOutlet weak var randomMovieLabel: UILabel!
-    @IBOutlet weak var randomPosterImage: UIImageView!
+    @IBOutlet weak var randomPoster: UIImageView!
+    @IBOutlet weak var randomMovie: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        var randomSet = [["jurassicPoster":"Jurassic Park", "inceptionPoster":"Inception", "starWarsPoster":"Star Wars", "batmanPoster":"The Batman"]]
+        let actionMovies = ["jurassicPoster":"Jurassic Park", "inceptionPoster":"Inception", "starPoster":"Star Wars", "batmanPoster":"The Batman"]
 
-        func randomiseSet (){
-            let randomNumber:Int = Int(arc4random_uniform(5))
-            randomPosterImage.image = UIImage(named: randomSet[randomNumber]["randomPosterImage"]!)
+        func randomActionMovie () {
+            let randomNumber:Int = Int.random(in: 0..<(actionMovies.count))
+            if randomNumber == 0 {
+                randomPoster.image =  UIImage(named: "jurassicPoster")
+                randomMovie.setTitle("Jurassic Park",for: .normal)
+            } else if randomNumber == 1 {
+                randomPoster.image =  UIImage(named: "inceptionPoster")
+                randomMovie.setTitle("Inception",for: .normal)
+            } else if randomNumber == 2 {
+                randomPoster.image =  UIImage(named: "starPoster")
+                randomMovie.setTitle("Star Wars",for: .normal)
+            } else if randomNumber == 3 {
+                randomPoster.image =  UIImage(named: "batmanPoster")
+                randomMovie.setTitle("The Batman",for: .normal)
         }
     }
     
+        
 
     /*
     // MARK: - Navigation
@@ -34,6 +46,8 @@ class RandomMovieViewController: UIViewController {
     }
     */
 
+
+}
 
 }
 
