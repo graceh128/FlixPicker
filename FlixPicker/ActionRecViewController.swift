@@ -45,9 +45,7 @@ class ActionRecViewController: UIViewController {
         UIApplication.shared.open(googleURL!)
     }
     
-    @IBAction func pickButtonTapped(_ sender: Any) {
-    }
-    randomActionMovie()
+ 
     
     
     

@@ -5,7 +5,7 @@
 //  Created by Grace Huang on 6/15/22.
 //
 
-import UIKit
+/*import UIKit
 
 class RandomMovieViewController: UIViewController {
     @IBOutlet weak var randomActionPoster: UIImageView!
@@ -39,3 +39,4 @@ class RandomMovieViewController: UIViewController {
     
 }
 
+*/
