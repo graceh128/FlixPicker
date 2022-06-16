@@ -40,7 +40,6 @@ class ActionRecViewController: UIViewController {
         let googleURL = URL(string: "https://www.imdb.com/title/tt1877830/")
         UIApplication.shared.open(googleURL!)
     }
-    
- 
 }
+
 
