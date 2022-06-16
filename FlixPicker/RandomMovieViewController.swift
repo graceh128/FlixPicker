@@ -21,9 +21,9 @@ class RandomMovieViewController: UIViewController {
 
         func randomActionMovie () {
             var randomNumber:Int = Int.random(in: 0..<(actionMovies.count))
-            var randomAction = actionMovies[randomNumber]!
+            var randomAction = actionMovies[randomNumber]
             randomActionPoster.image = UIImage(named: "\(randomAction)")
-            randomActionMovieButton.setTitle(actionMovies[randomAction]!), for: .normal)
+            randomActionMovieButton.setTitle(actionMovies[randomAction]), for: .normal)
             randomMovie.setTitle("The Batman",for: .normal)
         }
 
@@ -33,7 +33,8 @@ class RandomMovieViewController: UIViewController {
    randomActionWebView.load(URLRequest(url:googleURL!))
     
     @IBAction func randomActionTitleTapped(_ sender: Any) {
-        
+        let googleURL = URL(string: actionMovieURL[""])
+        UIApplication.shared.open(googleURL!)
     }
     
 }

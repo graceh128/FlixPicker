@@ -43,7 +43,6 @@ class ComedyRecViewController: UIViewController {
         let googleURL2 = URL(string: "https://www.imdb.com/title/tt8115900/")
         UIApplication.shared.open(googleURL2!)
     }
-    
 }
 
 
