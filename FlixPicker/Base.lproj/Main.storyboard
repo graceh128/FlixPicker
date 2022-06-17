@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FlixPicker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stX-T5-g2O">
-                                <rect key="frame" x="98.5" y="545" width="217" height="59"/>
+                                <rect key="frame" x="90.5" y="545" width="233" height="59"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -35,13 +35,13 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="nAH-ii-NhS"/>
                         <color key="backgroundColor" red="0.61568629740000003" green="0.7019608021" blue="0.58823531870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="stX-T5-g2O" firstAttribute="top" secondItem="Bpd-tV-eAi" secondAttribute="bottom" constant="-33" id="5FV-8k-Y3z"/>
-                            <constraint firstItem="stX-T5-g2O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M4R-VP-TB3"/>
-                            <constraint firstItem="Bpd-tV-eAi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kFi-dh-CZo"/>
-                            <constraint firstItem="Bpd-tV-eAi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="125" id="tIA-p8-FZX"/>
+                            <constraint firstItem="stX-T5-g2O" firstAttribute="centerX" secondItem="nAH-ii-NhS" secondAttribute="centerX" id="M4R-VP-TB3"/>
+                            <constraint firstItem="Bpd-tV-eAi" firstAttribute="centerX" secondItem="nAH-ii-NhS" secondAttribute="centerX" id="kFi-dh-CZo"/>
+                            <constraint firstItem="Bpd-tV-eAi" firstAttribute="top" secondItem="nAH-ii-NhS" secondAttribute="top" constant="125" id="tIA-p8-FZX"/>
                         </constraints>
                     </view>
                     <connections>
@@ -50,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+            <point key="canvasLocation" x="2303" y="-1449"/>
         </scene>
         <!--Genre View Controller-->
         <scene sceneID="ZWz-e7-AIv">
@@ -61,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PIck a movie genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPg-rr-Y7I">
-                                <rect key="frame" x="100.5" y="111" width="213.5" height="30"/>
+                                <rect key="frame" x="94" y="111" width="226.5" height="30"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -129,7 +129,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="hec-dN-h3u" kind="show" id="1FL-KN-c1w"/>
+                                    <segue destination="hec-dN-h3u" kind="show" id="gE7-wv-qHG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgI-Wp-jF1">
@@ -151,7 +151,7 @@
                                     <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="UWY-SY-LT3" kind="show" id="9Z8-29-MIv"/>
+                                    <segue destination="UWY-SY-LT3" kind="show" id="wMp-0L-TDD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOM-I7-gfQ">
@@ -212,30 +212,30 @@
                                 </buttonConfiguration>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="BMi-y7-87O"/>
+                        <viewLayoutGuide key="safeArea" id="88o-8C-FYq"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="frV-1T-rWq" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="3HR-lg-cPd"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="dgI-Wp-jF1" secondAttribute="trailing" constant="54.5" id="3Wo-eY-yXf"/>
-                            <constraint firstItem="frV-1T-rWq" firstAttribute="centerX" secondItem="Kw5-bj-41X" secondAttribute="centerX" id="5mo-yk-ENV"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="frV-1T-rWq" secondAttribute="trailing" constant="54.5" id="8UZ-3y-bhV"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="ZMU-Vj-I04" secondAttribute="trailing" constant="54.5" id="8aU-th-ezA"/>
-                            <constraint firstItem="UPg-rr-Y7I" firstAttribute="top" secondItem="BMi-y7-87O" secondAttribute="top" constant="67" id="Ahq-LN-nlx"/>
+                            <constraint firstItem="frV-1T-rWq" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="3HR-lg-cPd"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="dgI-Wp-jF1" secondAttribute="trailing" constant="54.5" id="3Wo-eY-yXf"/>
+                            <constraint firstItem="frV-1T-rWq" firstAttribute="centerX" secondItem="88o-8C-FYq" secondAttribute="centerX" id="5mo-yk-ENV"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="frV-1T-rWq" secondAttribute="trailing" constant="54.5" id="8UZ-3y-bhV"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="ZMU-Vj-I04" secondAttribute="trailing" constant="54.5" id="8aU-th-ezA"/>
+                            <constraint firstItem="UPg-rr-Y7I" firstAttribute="top" secondItem="88o-8C-FYq" secondAttribute="top" constant="67" id="Ahq-LN-nlx"/>
                             <constraint firstItem="frV-1T-rWq" firstAttribute="top" secondItem="UPg-rr-Y7I" secondAttribute="bottom" constant="41" id="BpZ-QT-Saa"/>
                             <constraint firstItem="YVg-4c-gGM" firstAttribute="top" secondItem="Sgs-DS-RmM" secondAttribute="bottom" constant="28" id="HiH-AI-oty"/>
-                            <constraint firstItem="Sgs-DS-RmM" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="ICP-29-hjj"/>
-                            <constraint firstItem="S1N-6D-p4e" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="OTi-fu-cCY"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="GOM-I7-gfQ" secondAttribute="trailing" constant="54.5" id="Q73-EV-JXB"/>
-                            <constraint firstItem="UPg-rr-Y7I" firstAttribute="centerX" secondItem="Kw5-bj-41X" secondAttribute="centerX" id="S34-Ou-Hh4"/>
+                            <constraint firstItem="Sgs-DS-RmM" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="ICP-29-hjj"/>
+                            <constraint firstItem="S1N-6D-p4e" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="OTi-fu-cCY"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="GOM-I7-gfQ" secondAttribute="trailing" constant="54.5" id="Q73-EV-JXB"/>
+                            <constraint firstItem="UPg-rr-Y7I" firstAttribute="centerX" secondItem="88o-8C-FYq" secondAttribute="centerX" id="S34-Ou-Hh4"/>
                             <constraint firstItem="ZMU-Vj-I04" firstAttribute="top" secondItem="S1N-6D-p4e" secondAttribute="bottom" constant="24" id="XqP-NE-fup"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="Sgs-DS-RmM" secondAttribute="trailing" constant="54.5" id="aAf-UC-gA3"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="YVg-4c-gGM" secondAttribute="trailing" constant="54.5" id="bJP-uU-Vtd"/>
-                            <constraint firstItem="GOM-I7-gfQ" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="epI-OU-1ko"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="Sgs-DS-RmM" secondAttribute="trailing" constant="54.5" id="aAf-UC-gA3"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="YVg-4c-gGM" secondAttribute="trailing" constant="54.5" id="bJP-uU-Vtd"/>
+                            <constraint firstItem="GOM-I7-gfQ" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="epI-OU-1ko"/>
                             <constraint firstItem="GOM-I7-gfQ" firstAttribute="top" secondItem="dgI-Wp-jF1" secondAttribute="bottom" constant="27" id="fgm-DK-Mn2"/>
-                            <constraint firstItem="ZMU-Vj-I04" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="mia-3s-MF8"/>
-                            <constraint firstItem="BMi-y7-87O" firstAttribute="trailing" secondItem="S1N-6D-p4e" secondAttribute="trailing" constant="54.5" id="nJi-nF-QUx"/>
-                            <constraint firstItem="YVg-4c-gGM" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="r8P-n4-bL3"/>
-                            <constraint firstItem="dgI-Wp-jF1" firstAttribute="leading" secondItem="BMi-y7-87O" secondAttribute="leading" constant="54.5" id="sYT-as-v6a"/>
+                            <constraint firstItem="ZMU-Vj-I04" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="mia-3s-MF8"/>
+                            <constraint firstItem="88o-8C-FYq" firstAttribute="trailing" secondItem="S1N-6D-p4e" secondAttribute="trailing" constant="54.5" id="nJi-nF-QUx"/>
+                            <constraint firstItem="YVg-4c-gGM" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="r8P-n4-bL3"/>
+                            <constraint firstItem="dgI-Wp-jF1" firstAttribute="leading" secondItem="88o-8C-FYq" secondAttribute="leading" constant="54.5" id="sYT-as-v6a"/>
                             <constraint firstItem="dgI-Wp-jF1" firstAttribute="top" secondItem="ZMU-Vj-I04" secondAttribute="bottom" constant="26" id="tXx-Zh-YqX"/>
                             <constraint firstItem="Sgs-DS-RmM" firstAttribute="top" secondItem="GOM-I7-gfQ" secondAttribute="bottom" constant="27" id="yL3-uW-uyq"/>
                             <constraint firstItem="S1N-6D-p4e" firstAttribute="top" secondItem="frV-1T-rWq" secondAttribute="bottom" constant="23" id="yuH-BP-zuS"/>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Exj-3e-HRT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="766.66666666666674" y="79.6875"/>
+            <point key="canvasLocation" x="2303" y="-757"/>
         </scene>
         <!--Action Rec View Controller-->
         <scene sceneID="gx7-1Y-Rgr">
@@ -256,7 +256,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-s4-R4k">
-                                <rect key="frame" x="291" y="475" width="38" height="52"/>
+                                <rect key="frame" x="293" y="435" width="38" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -265,7 +265,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SeG-Op-mX6">
-                                <rect key="frame" x="77" y="478" width="38" height="52"/>
+                                <rect key="frame" x="79" y="438" width="38" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -274,7 +274,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J3j-cU-b7r">
-                                <rect key="frame" x="86" y="214" width="29" height="31"/>
+                                <rect key="frame" x="88" y="174" width="29" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -283,7 +283,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bW8-je-KHa">
-                                <rect key="frame" x="291" y="214" width="31" height="45"/>
+                                <rect key="frame" x="293" y="174" width="31" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -291,8 +291,8 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
-                                <rect key="frame" x="45" y="778" width="68" height="24"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp3-yF-Euc">
+                                <rect key="frame" x="45" y="769" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -300,6 +300,9 @@
                                     <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="KB0-OQ-Ict"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNi-mx-2g5">
                                 <rect key="frame" x="29" y="52" width="357" height="30"/>
@@ -308,13 +311,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQc-uA-KyS">
-                                <rect key="frame" x="87" y="92" width="240.5" height="24"/>
+                                <rect key="frame" x="76.5" y="92" width="261.5" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-Mk-YMx">
-                                <rect key="frame" x="54.5" y="695" width="305.5" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-Mk-YMx">
+                                <rect key="frame" x="54.5" y="669" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="n6E-L5-76g"/>
                                 </constraints>
@@ -335,17 +338,22 @@
                                     <segue destination="h1g-fC-SWT" kind="show" id="RZH-4m-Int"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jurassicPoster" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-cD-Ifb">
-                                <rect key="frame" x="49" y="190" width="149" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jurassicPoster" translatesAutoresizingMaskIntoConstraints="NO" id="Sa3-cD-Ifb">
+                                <rect key="frame" x="51" y="150" width="149" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="fBx-bM-zVw"/>
+                                    <constraint firstAttribute="width" constant="149" id="xf5-DP-oQE"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inceptionPoster" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-7c-XuV">
-                                <rect key="frame" x="227" y="190" width="121" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inceptionPoster" translatesAutoresizingMaskIntoConstraints="NO" id="CR0-7c-XuV">
+                                <rect key="frame" x="229" y="150" width="121" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="121" id="0Ns-CQ-Z2f"/>
+                                    <constraint firstAttribute="height" constant="179" id="Mbs-mZ-av0"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-XH-VKP">
-                                <rect key="frame" x="40" y="385" width="164" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-XH-VKP">
+                                <rect key="frame" x="42" y="345" width="164" height="31"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Jurassic Park">
@@ -355,9 +363,8 @@
                                     <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="zcz-z8-Nxh"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyq-zq-QrF">
-                                <rect key="frame" x="206" y="385" width="164" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyq-zq-QrF">
+                                <rect key="frame" x="208" y="345" width="164" height="31"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Inception">
@@ -367,14 +374,22 @@
                                     <action selector="inceptionButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="b24-8U-rkg"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="starWarsPoster" translatesAutoresizingMaskIntoConstraints="NO" id="qhB-8X-AAR">
-                                <rect key="frame" x="66" y="449" width="117" height="179"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="starWarsPoster" translatesAutoresizingMaskIntoConstraints="NO" id="qhB-8X-AAR">
+                                <rect key="frame" x="68" y="409" width="117" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="3KL-DX-luS"/>
+                                    <constraint firstAttribute="height" constant="179" id="J4v-wU-lBV"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="batmanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-Fr-mdD">
-                                <rect key="frame" x="227" y="449" width="121" height="179"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="batmanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="8H7-Fr-mdD">
+                                <rect key="frame" x="229" y="409" width="121" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="JUm-Be-NRe"/>
+                                    <constraint firstAttribute="width" constant="121" id="ckO-kF-RHJ"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trO-b8-8yI">
-                                <rect key="frame" x="227" y="644" width="136" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trO-b8-8yI">
+                                <rect key="frame" x="219" y="604" width="146" height="31"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="The Batman">
@@ -384,8 +399,8 @@
                                     <action selector="batmanButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="GHu-GT-O84"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-X7-gxy">
-                                <rect key="frame" x="69" y="639" width="110" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uc-X7-gxy">
+                                <rect key="frame" x="71" y="604" width="116" height="31"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Star Wars">
@@ -396,35 +411,36 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="MLz-dy-J3v"/>
+                        <viewLayoutGuide key="safeArea" id="w4Y-Hf-bhO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="top" secondItem="8uc-X7-gxy" secondAttribute="bottom" constant="20" id="0pe-Va-HM9"/>
-                            <constraint firstItem="MLz-dy-J3v" firstAttribute="trailing" secondItem="zSc-Mk-YMx" secondAttribute="trailing" constant="54.5" id="3XD-nh-6P3"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="top" secondItem="8uc-X7-gxy" secondAttribute="bottom" constant="14" id="4xg-KO-kQM"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="top" secondItem="8uc-X7-gxy" secondAttribute="bottom" constant="14" id="5fH-uD-srL"/>
-                            <constraint firstItem="trO-b8-8yI" firstAttribute="leading" secondItem="8uc-X7-gxy" secondAttribute="trailing" constant="2" id="75t-K0-sWD"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="trailing" secondItem="zSc-Mk-YMx" secondAttribute="trailing" constant="54.5" id="3XD-nh-6P3"/>
+                            <constraint firstItem="Nyq-zq-QrF" firstAttribute="top" secondItem="CR0-7c-XuV" secondAttribute="bottom" constant="16" id="8nQ-gc-qUS"/>
+                            <constraint firstItem="Cf8-XH-VKP" firstAttribute="top" secondItem="Sa3-cD-Ifb" secondAttribute="bottom" constant="16" id="AF9-AO-DV6"/>
                             <constraint firstItem="HQc-uA-KyS" firstAttribute="top" secondItem="QNi-mx-2g5" secondAttribute="bottom" constant="10" id="Cgv-Ch-TTV"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="Giq-DV-Lmv"/>
-                            <constraint firstItem="MLz-dy-J3v" firstAttribute="trailing" secondItem="zSc-Mk-YMx" secondAttribute="trailing" constant="54" id="Pnf-fh-qRT"/>
-                            <constraint firstItem="dp3-yF-Euc" firstAttribute="top" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="19" id="QGM-tJ-jsk"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="55" id="QWc-Bn-YfZ"/>
-                            <constraint firstItem="trO-b8-8yI" firstAttribute="top" secondItem="8H7-Fr-mdD" secondAttribute="bottom" constant="11" id="SRo-JH-8Fz"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="VSg-Xz-YYb"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="54.5" id="ZVj-jR-fE2"/>
-                            <constraint firstItem="dp3-yF-Euc" firstAttribute="leading" secondItem="HA7-1o-3Jl" secondAttribute="leading" constant="45" id="dyL-6L-FA4"/>
-                            <constraint firstItem="QNi-mx-2g5" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="g98-fD-HPS"/>
-                            <constraint firstItem="trO-b8-8yI" firstAttribute="leading" secondItem="8uc-X7-gxy" secondAttribute="trailing" constant="48" id="i8S-hb-BIS"/>
-                            <constraint firstItem="8uc-X7-gxy" firstAttribute="top" secondItem="qhB-8X-AAR" secondAttribute="bottom" constant="11" id="jaR-M9-T9t"/>
-                            <constraint firstItem="8uc-X7-gxy" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="42" id="kbg-sG-9hg"/>
-                            <constraint firstItem="8uc-X7-gxy" firstAttribute="leading" secondItem="MLz-dy-J3v" secondAttribute="leading" constant="69" id="pah-JH-Hhh"/>
-                            <constraint firstItem="HQc-uA-KyS" firstAttribute="centerX" secondItem="HA7-1o-3Jl" secondAttribute="centerX" id="sAR-Dd-KMF"/>
-                            <constraint firstItem="trO-b8-8yI" firstAttribute="leading" secondItem="8uc-X7-gxy" secondAttribute="trailing" constant="48" id="sNA-sZ-y6z"/>
-                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="top" secondItem="trO-b8-8yI" secondAttribute="bottom" constant="14" id="sPQ-mj-N9m"/>
-                            <constraint firstItem="MLz-dy-J3v" firstAttribute="trailing" secondItem="trO-b8-8yI" secondAttribute="trailing" constant="51" id="vVl-D0-pfC"/>
-                            <constraint firstItem="8uc-X7-gxy" firstAttribute="top" secondItem="qhB-8X-AAR" secondAttribute="bottom" constant="11" id="xnR-uh-VEz"/>
-                            <constraint firstItem="dp3-yF-Euc" firstAttribute="top" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="42" id="yC4-z6-FXL"/>
-                            <constraint firstItem="QNi-mx-2g5" firstAttribute="top" secondItem="MLz-dy-J3v" secondAttribute="top" constant="52" id="zgg-90-FHV"/>
+                            <constraint firstItem="qhB-8X-AAR" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="68" id="E4Q-BI-XcE"/>
+                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="centerX" secondItem="w4Y-Hf-bhO" secondAttribute="centerX" id="Giq-DV-Lmv"/>
+                            <constraint firstItem="trO-b8-8yI" firstAttribute="top" secondItem="8H7-Fr-mdD" secondAttribute="bottom" constant="16" id="HGL-yz-mrl"/>
+                            <constraint firstItem="Cf8-XH-VKP" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="42" id="QKn-Qc-8r0"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="trailing" secondItem="Nyq-zq-QrF" secondAttribute="trailing" constant="42" id="RIb-vP-q6D"/>
+                            <constraint firstItem="qhB-8X-AAR" firstAttribute="top" secondItem="Cf8-XH-VKP" secondAttribute="bottom" constant="33" id="RyU-XG-plr"/>
+                            <constraint firstItem="8uc-X7-gxy" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="71" id="X1O-7P-pO9"/>
+                            <constraint firstItem="zSc-Mk-YMx" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="54.5" id="ZVj-jR-fE2"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="trailing" secondItem="trO-b8-8yI" secondAttribute="trailing" constant="49" id="axb-pd-nDY"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="trailing" secondItem="8H7-Fr-mdD" secondAttribute="trailing" constant="64" id="cJm-If-1xu"/>
+                            <constraint firstItem="CR0-7c-XuV" firstAttribute="top" secondItem="HQc-uA-KyS" secondAttribute="bottom" constant="34" id="chr-Gb-9Xj"/>
+                            <constraint firstItem="dp3-yF-Euc" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="45" id="dyL-6L-FA4"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="trailing" secondItem="CR0-7c-XuV" secondAttribute="trailing" constant="64" id="eWO-u3-azh"/>
+                            <constraint firstItem="QNi-mx-2g5" firstAttribute="centerX" secondItem="w4Y-Hf-bhO" secondAttribute="centerX" id="g98-fD-HPS"/>
+                            <constraint firstItem="Sa3-cD-Ifb" firstAttribute="leading" secondItem="w4Y-Hf-bhO" secondAttribute="leading" constant="51" id="i6G-CU-zEZ"/>
+                            <constraint firstItem="Sa3-cD-Ifb" firstAttribute="top" secondItem="HQc-uA-KyS" secondAttribute="bottom" constant="34" id="k8a-cA-f6d"/>
+                            <constraint firstItem="dp3-yF-Euc" firstAttribute="top" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="36" id="lJC-dk-kgd"/>
+                            <constraint firstItem="dp3-yF-Euc" firstAttribute="bottom" secondItem="w4Y-Hf-bhO" secondAttribute="bottom" id="nUC-jL-iBc"/>
+                            <constraint firstItem="HQc-uA-KyS" firstAttribute="centerX" secondItem="w4Y-Hf-bhO" secondAttribute="centerX" id="sAR-Dd-KMF"/>
+                            <constraint firstItem="w4Y-Hf-bhO" firstAttribute="bottom" secondItem="zSc-Mk-YMx" secondAttribute="bottom" constant="60" id="tU0-0O-WTC"/>
+                            <constraint firstItem="8uc-X7-gxy" firstAttribute="top" secondItem="qhB-8X-AAR" secondAttribute="bottom" constant="16" id="xnR-uh-VEz"/>
+                            <constraint firstItem="8H7-Fr-mdD" firstAttribute="top" secondItem="Nyq-zq-QrF" secondAttribute="bottom" constant="33" id="zTt-14-toV"/>
+                            <constraint firstItem="QNi-mx-2g5" firstAttribute="top" secondItem="w4Y-Hf-bhO" secondAttribute="top" constant="52" id="zgg-90-FHV"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -440,7 +456,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Huq-56-MWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="yIx-nn-jhq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1524.6376811594205" y="79.6875"/>
+            <point key="canvasLocation" x="1507" y="80"/>
         </scene>
         <!--Comedy Rec View Controller-->
         <scene sceneID="vLk-1d-Kho">
@@ -451,7 +467,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E5N-t1-58p">
-                                <rect key="frame" x="254" y="459" width="70" height="128"/>
+                                <rect key="frame" x="253" y="495" width="70" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -459,7 +475,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HTH-c8-YZJ">
-                                <rect key="frame" x="62" y="441" width="73" height="150"/>
+                                <rect key="frame" x="61" y="477" width="73" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -467,7 +483,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0yb-YK-UTX">
-                                <rect key="frame" x="254" y="214" width="33" height="58"/>
+                                <rect key="frame" x="253" y="250" width="33" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -482,39 +498,48 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-R1-YKK">
-                                <rect key="frame" x="29" y="63" width="357" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-R1-YKK">
+                                <rect key="frame" x="37" y="96" width="340.5" height="30"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjp-br-b5E">
-                                <rect key="frame" x="77" y="101" width="261.5" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjp-br-b5E">
+                                <rect key="frame" x="76.5" y="136" width="261.5" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="legallyBlondePoster" translatesAutoresizingMaskIntoConstraints="NO" id="YpK-1g-O4h">
-                                <rect key="frame" x="46" y="158" width="149" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="legallyBlondePoster" translatesAutoresizingMaskIntoConstraints="NO" id="YpK-1g-O4h">
+                                <rect key="frame" x="45" y="194" width="149" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="0Qh-Uc-i1L"/>
+                                    <constraint firstAttribute="height" constant="179" id="EsO-um-SfK"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="charlieAndChocolatePoster" translatesAutoresizingMaskIntoConstraints="NO" id="gqL-3N-stL">
-                                <rect key="frame" x="46" y="419" width="149" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meanGirlsPoster" translatesAutoresizingMaskIntoConstraints="NO" id="gqL-3N-stL">
+                                <rect key="frame" x="45" y="464" width="149" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="Yx2-Fo-w4R"/>
+                                    <constraint firstAttribute="width" constant="149" id="bzZ-Ls-yGa"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seniorYearPoster" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-IY-YKf">
-                                <rect key="frame" x="232" y="158" width="127" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seniorYearPoster" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-IY-YKf">
+                                <rect key="frame" x="219" y="194" width="146" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="179" id="5OX-A5-Tfp"/>
+                                    <constraint firstAttribute="width" constant="146" id="CJf-Vo-Tix"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theBadGuysPoster" translatesAutoresizingMaskIntoConstraints="NO" id="DMh-Sa-fkv">
-                                <rect key="frame" x="219" y="419" width="149" height="179"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="theBadGuysPoster" translatesAutoresizingMaskIntoConstraints="NO" id="DMh-Sa-fkv">
+                                <rect key="frame" x="218" y="464" width="149" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="dSF-Wf-JU6"/>
+                                    <constraint firstAttribute="height" constant="179" id="fac-fX-s0j"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-vV-I4a">
-                                <rect key="frame" x="31" y="344" width="181" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-vV-I4a">
+                                <rect key="frame" x="29" y="389" width="181" height="42"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Legally Blonde">
@@ -526,9 +551,8 @@
                                     <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="BxS-6a-nnP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e4-hu-Jwo">
-                                <rect key="frame" x="220" y="344" width="164" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2e4-hu-Jwo">
+                                <rect key="frame" x="226" y="389" width="137" height="42"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Senior Year">
@@ -540,36 +564,19 @@
                                     <action selector="seniorYearButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="uhk-qn-0z9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zac-Jv-1Kl">
-                                <rect key="frame" x="243" y="587" width="117" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h9W-Ji-eBQ">
+                                <rect key="frame" x="34" y="663" width="173" height="42"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="The Bad Guys">
+                                <state key="normal" title="Mean Girls">
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="lJP-Nh-tDP"/>
-                                    <action selector="theBadGuysButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="6AQ-aL-gAV"/>
-                                    <action selector="theBadGuysButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="Yvx-RB-2F9"/>
+                                    <action selector="meanGirlsButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="wQv-MS-EJ1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="h9W-Ji-eBQ">
-                                <rect key="frame" x="47" y="608" width="173" height="110"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Charlie and the Chocolate Factory ">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="charlieAndChocolateButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="DuQ-d7-vUn"/>
-                                    <action selector="charlieAndChocolateButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="uV7-nd-SoU"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="7QU-Qc-c8f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSx-C1-xcb">
-                                <rect key="frame" x="77" y="720" width="261" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSx-C1-xcb">
+                                <rect key="frame" x="54.5" y="718" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="1Ko-N0-7S6"/>
                                 </constraints>
@@ -587,12 +594,11 @@
                                     <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="randomMovieButton:" destination="yIx-nn-jhq" eventType="touchUpInside" id="a7O-Qg-X9B"/>
+                                    <segue destination="XVD-xF-sLc" kind="show" id="23b-A3-KEP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06H-fX-E6C">
-                                <rect key="frame" x="31" y="798" width="70" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06H-fX-E6C">
+                                <rect key="frame" x="45" y="818" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -604,14 +610,55 @@
                                     <segue destination="8f1-Rg-l3g" kind="show" id="ZaD-B0-pt9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zac-Jv-1Kl">
+                                <rect key="frame" x="207" y="663" width="174" height="42"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="The Bad Guys">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="lJP-Nh-tDP"/>
+                                    <action selector="theBadGuysButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="6AQ-aL-gAV"/>
+                                    <action selector="theBadGuysButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="Yvx-RB-2F9"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="jRn-ZP-kzH"/>
+                        <viewLayoutGuide key="safeArea" id="u9n-bk-DRQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="trailing" secondItem="2e4-hu-Jwo" secondAttribute="trailing" constant="51" id="1U5-fl-uLg"/>
+                            <constraint firstItem="06H-fX-E6C" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="45" id="4Oy-QX-txb"/>
+                            <constraint firstItem="2e4-hu-Jwo" firstAttribute="top" secondItem="fVt-IY-YKf" secondAttribute="bottom" constant="16" id="4TQ-me-vDE"/>
+                            <constraint firstItem="h9W-Ji-eBQ" firstAttribute="top" secondItem="gqL-3N-stL" secondAttribute="bottom" constant="20" id="Bcg-IZ-ent"/>
+                            <constraint firstItem="h9W-Ji-eBQ" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="34" id="FbC-Xa-P3L"/>
+                            <constraint firstItem="QfP-vV-I4a" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="29" id="GcP-le-JIT"/>
+                            <constraint firstItem="gqL-3N-stL" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="45" id="HU5-3M-LQT"/>
+                            <constraint firstItem="LSx-C1-xcb" firstAttribute="centerX" secondItem="7ia-f3-aYn" secondAttribute="centerX" id="N6p-uv-bTV"/>
+                            <constraint firstItem="LSx-C1-xcb" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="54.5" id="P9G-af-2MH"/>
+                            <constraint firstItem="wjp-br-b5E" firstAttribute="centerX" secondItem="7ia-f3-aYn" secondAttribute="centerX" id="RBk-dg-alC"/>
+                            <constraint firstItem="YpK-1g-O4h" firstAttribute="top" secondItem="wjp-br-b5E" secondAttribute="bottom" constant="34" id="SlJ-hj-Qog"/>
+                            <constraint firstItem="06H-fX-E6C" firstAttribute="top" secondItem="LSx-C1-xcb" secondAttribute="bottom" constant="36" id="ZRZ-5q-LF4"/>
+                            <constraint firstItem="QfP-vV-I4a" firstAttribute="top" secondItem="YpK-1g-O4h" secondAttribute="bottom" constant="16" id="cfd-km-rmi"/>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="trailing" secondItem="zac-Jv-1Kl" secondAttribute="trailing" constant="33" id="dRs-TN-Rcj"/>
+                            <constraint firstItem="gqL-3N-stL" firstAttribute="top" secondItem="QfP-vV-I4a" secondAttribute="bottom" constant="33" id="hfg-SL-FqS"/>
+                            <constraint firstItem="iLc-R1-YKK" firstAttribute="centerX" secondItem="7ia-f3-aYn" secondAttribute="centerX" id="j3j-rT-loE"/>
+                            <constraint firstItem="fVt-IY-YKf" firstAttribute="top" secondItem="wjp-br-b5E" secondAttribute="bottom" constant="34" id="mA0-vx-axh"/>
+                            <constraint firstItem="wjp-br-b5E" firstAttribute="top" secondItem="iLc-R1-YKK" secondAttribute="bottom" constant="10" id="mPd-eX-kHJ"/>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="trailing" secondItem="DMh-Sa-fkv" secondAttribute="trailing" constant="47" id="rlc-Ns-2ee"/>
+                            <constraint firstItem="DMh-Sa-fkv" firstAttribute="top" secondItem="2e4-hu-Jwo" secondAttribute="bottom" constant="33" id="s7l-XJ-e6F"/>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="trailing" secondItem="fVt-IY-YKf" secondAttribute="trailing" constant="49" id="tEB-q8-WrI"/>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="trailing" secondItem="LSx-C1-xcb" secondAttribute="trailing" constant="54.5" id="tK0-4J-Gdb"/>
+                            <constraint firstItem="iLc-R1-YKK" firstAttribute="top" secondItem="u9n-bk-DRQ" secondAttribute="top" constant="52" id="uE6-ds-rqB"/>
+                            <constraint firstItem="u9n-bk-DRQ" firstAttribute="bottom" secondItem="LSx-C1-xcb" secondAttribute="bottom" constant="60" id="xT8-mE-jjG"/>
+                            <constraint firstItem="YpK-1g-O4h" firstAttribute="leading" secondItem="u9n-bk-DRQ" secondAttribute="leading" constant="45" id="y5Z-Q0-xPh"/>
+                            <constraint firstItem="zac-Jv-1Kl" firstAttribute="top" secondItem="DMh-Sa-fkv" secondAttribute="bottom" constant="20" id="yzr-3V-OAv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="q38-Sr-y4x"/>
                     <connections>
-                        <outlet property="charlieAndChocolateView" destination="HTH-c8-YZJ" id="dh9-Vs-wZC"/>
                         <outlet property="legallyBlondeView" destination="W77-kG-ai5" id="fjQ-bx-hdz"/>
+                        <outlet property="meanGirlsView" destination="HTH-c8-YZJ" id="Cc3-hd-2Ug"/>
                         <outlet property="seniorYearView" destination="0yb-YK-UTX" id="v2m-tw-oNX"/>
                         <outlet property="theBadGuysView" destination="E5N-t1-58p" id="r1q-ad-3Hs"/>
                     </connections>
@@ -621,14 +668,22 @@
             </objects>
             <point key="canvasLocation" x="2260.8695652173915" y="79.6875"/>
         </scene>
-        <!--Random Movie View Controller-->
+        <!--Random Action Movie View Controller-->
         <scene sceneID="KzI-70-c4s">
             <objects>
-                <viewController id="h1g-fC-SWT" customClass="RandomMovieViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="h1g-fC-SWT" customClass="RandomActionMovieViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oge-ur-y7g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fng-qy-0c9">
+                                <rect key="frame" x="245" y="333" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pz4-Fx-WnX">
                                 <rect key="frame" x="49.5" y="213.5" width="315" height="415"/>
                                 <constraints>
@@ -637,7 +692,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NN-fr-xFM">
-                                <rect key="frame" x="45" y="795" width="68" height="24"/>
+                                <rect key="frame" x="45" y="795" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -645,6 +700,9 @@
                                     <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="gDI-Ki-vyx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHN-dE-S07">
                                 <rect key="frame" x="54.5" y="689" width="305" height="64"/>
@@ -664,6 +722,9 @@
                                     <fontDescription key="titleFontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yxs-jp-S3F" kind="show" id="Dq1-6e-5pd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDX-wa-Uzw">
                                 <rect key="frame" x="186" y="135" width="3" height="2"/>
@@ -672,42 +733,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZs-IF-sXh">
-                                <rect key="frame" x="88" y="95" width="238" height="53"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwo-W7-S21">
+                                <rect key="frame" x="49" y="157" width="316" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Random Movie">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fng-qy-0c9">
-                                <rect key="frame" x="67" y="333" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwo-W7-S21">
-                                <rect key="frame" x="265" y="157" width="83" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="PJX-Vi-F9Z"/>
+                        <viewLayoutGuide key="safeArea" id="faq-uF-pJR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="SZs-IF-sXh" firstAttribute="top" secondItem="PJX-Vi-F9Z" secondAttribute="top" constant="95" id="Fo7-al-sCA"/>
-                            <constraint firstItem="PJX-Vi-F9Z" firstAttribute="trailing" secondItem="bHN-dE-S07" secondAttribute="trailing" constant="54.5" id="GXv-TT-5A7"/>
-                            <constraint firstItem="bHN-dE-S07" firstAttribute="leading" secondItem="PJX-Vi-F9Z" secondAttribute="leading" constant="54.5" id="H4P-MA-ieJ"/>
+                            <constraint firstItem="faq-uF-pJR" firstAttribute="trailing" secondItem="bHN-dE-S07" secondAttribute="trailing" constant="54.5" id="GXv-TT-5A7"/>
+                            <constraint firstItem="bHN-dE-S07" firstAttribute="leading" secondItem="faq-uF-pJR" secondAttribute="leading" constant="54.5" id="H4P-MA-ieJ"/>
                             <constraint firstItem="bHN-dE-S07" firstAttribute="top" secondItem="pz4-Fx-WnX" secondAttribute="bottom" constant="60.5" id="Mh0-S8-1ha"/>
                             <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerY" secondItem="oge-ur-y7g" secondAttribute="centerY" id="VPB-LP-EcE"/>
-                            <constraint firstItem="5NN-fr-xFM" firstAttribute="leading" secondItem="PJX-Vi-F9Z" secondAttribute="leading" constant="45" id="hVL-mH-pdz"/>
+                            <constraint firstItem="5NN-fr-xFM" firstAttribute="leading" secondItem="faq-uF-pJR" secondAttribute="leading" constant="45" id="hVL-mH-pdz"/>
                             <constraint firstItem="5NN-fr-xFM" firstAttribute="top" secondItem="bHN-dE-S07" secondAttribute="bottom" constant="42" id="qql-fL-VBg"/>
-                            <constraint firstItem="SZs-IF-sXh" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="rha-sE-PfQ"/>
-                            <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerX" secondItem="oge-ur-y7g" secondAttribute="centerX" id="zB8-U5-mMl"/>
+                            <constraint firstItem="pz4-Fx-WnX" firstAttribute="centerX" secondItem="faq-uF-pJR" secondAttribute="centerX" id="zB8-U5-mMl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GS4-yV-vVw"/>
@@ -719,7 +762,231 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0s-4j-mbk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4519" y="80"/>
+            <point key="canvasLocation" x="1506" y="792"/>
+        </scene>
+        <!--Random Comedy View Controller-->
+        <scene sceneID="dKg-eN-8r9">
+            <objects>
+                <viewController id="XVD-xF-sLc" customClass="RandomComedyViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RKo-zP-yNG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e8u-lB-Vwr">
+                                <rect key="frame" x="247" y="277" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uge-Xp-paA">
+                                <rect key="frame" x="52" y="157" width="315" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="BNp-UA-d1t"/>
+                                    <constraint firstAttribute="height" constant="415" id="Eod-Qp-9G1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hG3-SV-pYD">
+                                <rect key="frame" x="47" y="739" width="70" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                                <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Back" image="arrowtriangle.left.fill" catalog="system">
+                                    <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="RYl-7G-bdo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15v-BW-e4f">
+                                <rect key="frame" x="57" y="633" width="305" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="CGz-9n-RzK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Action">
+                                    <color key="titleColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Watch movie" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                        <color key="strokeColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yxs-jp-S3F" kind="show" id="ran-z2-rTj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQD-fL-uT1">
+                                <rect key="frame" x="51" y="101" width="316" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tuN-WK-knO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G8C-7t-fWR"/>
+                    <connections>
+                        <outlet property="randomComedyPoster" destination="Uge-Xp-paA" id="kuW-KK-4jL"/>
+                        <outlet property="randomComedyTitle" destination="hQD-fL-uT1" id="KbI-A3-bQV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lK-cK-xhw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2303" y="792"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Lcq-YP-OnJ">
+            <objects>
+                <viewController id="E57-lo-EQz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ip4-fZ-Rbm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zP1-iY-MJZ">
+                                <rect key="frame" x="247" y="293" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syC-pG-V6i">
+                                <rect key="frame" x="52" y="173" width="315" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="6hi-em-ol0"/>
+                                    <constraint firstAttribute="height" constant="415" id="VMZ-7c-rXB"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkK-dN-rvO">
+                                <rect key="frame" x="47" y="755" width="70" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                                <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Back" image="arrowtriangle.left.fill" catalog="system">
+                                    <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="kgi-Yn-0LA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Z-l8-yOm">
+                                <rect key="frame" x="57" y="649" width="305" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Ec0-SJ-NAI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Action">
+                                    <color key="titleColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Watch movie" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                        <color key="strokeColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yxs-jp-S3F" kind="show" id="zVf-mG-tpk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v86-3r-Bpi">
+                                <rect key="frame" x="51" y="117" width="316" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0Sj-Hz-j51"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OUW-Xf-yFm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfj-fB-dsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3003" y="792"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="awE-iG-gD0">
+            <objects>
+                <viewController id="yxs-jp-S3F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JkQ-X0-AHU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-g4-nmc">
+                                <rect key="frame" x="81" y="161" width="258" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="netflixLogo"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNe-zA-XCf">
+                                <rect key="frame" x="105" y="582" width="202" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="huluLogo"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click to watch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3l-oO-KR2">
+                                <rect key="frame" x="28" y="110" width="357" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-a5-bpk">
+                                <rect key="frame" x="53" y="744" width="305" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="dpc-0i-Dli"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Action">
+                                    <color key="titleColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Find new movie" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                        <color key="strokeColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTZ-G2-dgM">
+                                <rect key="frame" x="83" y="347" width="247" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="disneyLogo"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cD3-be-5Gp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3f8-OX-1gq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3r5-GV-4Aa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2302.898550724638" y="1530.8035714285713"/>
         </scene>
         <!--Drama Rec View Controller-->
         <scene sceneID="4r0-XB-g0y">
@@ -729,24 +996,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f70-jm-Xch">
-                                <rect key="frame" x="77" y="110" width="261.5" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
-                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OIz-CH-rin">
-                                <rect key="frame" x="55" y="179" width="103" height="112"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SrP-H8-rVD">
-                                <rect key="frame" x="272" y="212" width="55" height="67"/>
+                                <rect key="frame" x="55" y="214" width="103" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -755,7 +1006,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fnA-8Z-gIf">
-                                <rect key="frame" x="77" y="456" width="81" height="95"/>
+                                <rect key="frame" x="77" y="525" width="53" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -764,7 +1015,7 @@
                                 </wkWebViewConfiguration>
                             </wkWebView>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q7l-pD-1Cc">
-                                <rect key="frame" x="245" y="482" width="120" height="107"/>
+                                <rect key="frame" x="311" y="482" width="28" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -772,82 +1023,35 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forrestGumpPoster" translatesAutoresizingMaskIntoConstraints="NO" id="XgO-Hu-muL">
-                                <rect key="frame" x="39" y="156" width="161" height="192"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taxiDriverPoster" translatesAutoresizingMaskIntoConstraints="NO" id="zBh-ya-6t7">
-                                <rect key="frame" x="36" y="456" width="161" height="192"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="theShawshankRedempPoster" translatesAutoresizingMaskIntoConstraints="NO" id="ZqJ-GN-uIz">
-                                <rect key="frame" x="184" y="164" width="228" height="177"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fightClubPoster" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-Or-cky">
-                                <rect key="frame" x="223" y="456" width="162" height="192"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ets-oo-swI">
-                                <rect key="frame" x="54" y="349" width="144" height="82"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SrP-H8-rVD">
+                                <rect key="frame" x="272" y="247" width="55" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rd-HU-DPw">
+                                <rect key="frame" x="29" y="793" width="70" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                                <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Forrest Gump">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Back" image="arrowtriangle.left.fill" catalog="system">
+                                    <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                                 <connections>
-                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="XUp-bC-xhL"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="yIM-Bi-hAj"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="fvz-qQ-Vn8"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="ozk-H0-Wk2"/>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="HE2-du-kzC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="foR-L0-7tq">
-                                <rect key="frame" x="240" y="339" width="154" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-ux-NYo">
+                                <rect key="frame" x="37" y="96" width="340.5" height="30"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="The Shawshank Redemption">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="3yv-HI-V58"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="9GH-kX-OZd"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="k6a-AA-K37"/>
-                                    <action selector="shawshankRedempButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="Fwb-Uk-1D3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sl-jr-FcG">
-                                <rect key="frame" x="56" y="656" width="126" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Taxi Driver">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="e7V-IW-Dh4"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="r68-YD-Rac"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="vIW-YF-R65"/>
-                                    <action selector="taxiDriveButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="reb-VW-5SK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7L-Ze-2mB">
-                                <rect key="frame" x="245" y="655" width="123" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Fight Club">
-                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="fightClubButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="qW2-Z9-T4j"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="Nl4-Xl-98P"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="1eM-mm-xBk"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="9IU-f8-0C9"/>
-                                </connections>
-                            </button>
+                                <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bR-wr-YyV">
                                 <rect key="frame" x="77" y="717" width="261" height="60"/>
                                 <constraints>
@@ -868,39 +1072,95 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="randomMovieButton:" destination="yIx-nn-jhq" eventType="touchUpInside" id="OYR-Z2-aDC"/>
+                                    <segue destination="E57-lo-EQz" kind="show" id="dc3-hj-Iis"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here are some picks for you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JaS-ux-NYo">
-                                <rect key="frame" x="29" y="72" width="357" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7L-Ze-2mB">
+                                <rect key="frame" x="245" y="655" width="123" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
-                                <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rd-HU-DPw">
-                                <rect key="frame" x="29" y="793" width="70" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
-                                <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Back" image="arrowtriangle.left.fill" catalog="system">
-                                    <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                <state key="normal" title="Fight Club">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8f1-Rg-l3g" kind="show" id="HE2-du-kzC"/>
+                                    <action selector="fightClubButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="qW2-Z9-T4j"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sl-jr-FcG">
+                                <rect key="frame" x="56" y="656" width="126" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Taxi Driver">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="taxiDriveButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="reb-VW-5SK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="foR-L0-7tq">
+                                <rect key="frame" x="240" y="374" width="154" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Parasite">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="parasiteButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="cOc-5y-Wrm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ets-oo-swI">
+                                <rect key="frame" x="54" y="384" width="178" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Forrest Gump">
+                                    <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="XUp-bC-xhL"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fightClubPoster" translatesAutoresizingMaskIntoConstraints="NO" id="yw9-Or-cky">
+                                <rect key="frame" x="223" y="456" width="162" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parasitePoster" translatesAutoresizingMaskIntoConstraints="NO" id="ZqJ-GN-uIz">
+                                <rect key="frame" x="184" y="207" width="228" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="taxiDriverPoster" translatesAutoresizingMaskIntoConstraints="NO" id="zBh-ya-6t7">
+                                <rect key="frame" x="36" y="456" width="161" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="forrestGumpPoster" translatesAutoresizingMaskIntoConstraints="NO" id="XgO-Hu-muL">
+                                <rect key="frame" x="39" y="194" width="161" height="192"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click the title to learn more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f70-jm-Xch">
+                                <rect key="frame" x="76.5" y="136" width="261.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="VOw-iQ-RiO"/>
+                        <viewLayoutGuide key="safeArea" id="TZT-La-BET"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f70-jm-Xch" firstAttribute="centerX" secondItem="Gvo-Ib-weq" secondAttribute="centerX" id="cGd-zr-e8n"/>
+                            <constraint firstItem="f70-jm-Xch" firstAttribute="top" secondItem="JaS-ux-NYo" secondAttribute="bottom" constant="10" id="hjp-59-5fL"/>
+                            <constraint firstItem="JaS-ux-NYo" firstAttribute="top" secondItem="TZT-La-BET" secondAttribute="top" constant="52" id="kNr-Mf-a1d"/>
+                            <constraint firstItem="XgO-Hu-muL" firstAttribute="top" secondItem="f70-jm-Xch" secondAttribute="bottom" constant="34" id="lgk-7p-YjM"/>
+                            <constraint firstItem="JaS-ux-NYo" firstAttribute="centerX" secondItem="Gvo-Ib-weq" secondAttribute="centerX" id="u9G-au-j58"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="UHt-1D-ZuN"/>
                     <connections>
                         <outlet property="fightClubView" destination="Q7l-pD-1Cc" id="vng-l5-6kh"/>
                         <outlet property="forrestGumpView" destination="OIz-CH-rin" id="sq5-Me-mp8"/>
-                        <outlet property="shawshankRedempView" destination="fnA-8Z-gIf" id="rM0-I0-BtG"/>
-                        <outlet property="taxiDriverView" destination="fnA-8Z-gIf" id="hR7-Ef-Prj"/>
+                        <outlet property="parasiteView" destination="SrP-H8-rVD" id="WSX-ph-Rpq"/>
+                        <outlet property="taxiDriverView" destination="fnA-8Z-gIf" id="VGZ-6d-bAC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4sY-ee-kne" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -951,7 +1211,7 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aquamanPoster" translatesAutoresizingMaskIntoConstraints="NO" id="JKB-Li-YGU">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maleficentPoster" translatesAutoresizingMaskIntoConstraints="NO" id="JKB-Li-YGU">
                                 <rect key="frame" x="224" y="449" width="144" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -986,11 +1246,7 @@
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="x4Z-Te-TFU"/>
                                     <action selector="harryPotterButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="IMq-J8-J7J"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="uge-bZ-aPx"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="0mo-Nf-MdU"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="EbR-nZ-rml"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hPe-Rz-kpa">
@@ -1003,10 +1259,6 @@
                                 </state>
                                 <connections>
                                     <action selector="encantoButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="lqL-xv-sZF"/>
-                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="hTV-zn-A3N"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="oxd-k1-J4t"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="cIK-IM-w4P"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="q7F-MS-rKp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Jlf-xB-nIe">
@@ -1018,10 +1270,6 @@
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="8Ea-g8-ykv"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="tSZ-H3-d10"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="DBk-Xg-gqB"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="ejD-Jg-z5p"/>
                                     <action selector="shangChiButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="Lwn-TN-opu"/>
                                 </connections>
                             </button>
@@ -1030,15 +1278,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Aquaman">
+                                <state key="normal" title="Maleficent">
                                     <color key="titleColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
-                                    <action selector="aquamanButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="GCv-Ap-Ndd"/>
-                                    <action selector="forrestGumpButtonTapped:" destination="hec-dN-h3u" eventType="touchUpInside" id="DHk-eF-Nwt"/>
-                                    <action selector="jurassicButtonTapped:" destination="NYm-OJ-cxd" eventType="touchUpInside" id="4QK-iN-gEd"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="LCq-ih-dOW" eventType="touchUpInside" id="9Q9-Vy-G9B"/>
-                                    <action selector="legallyBlondeButtonTapped:" destination="If6-YK-Xw8" eventType="touchUpInside" id="EvH-wV-W5O"/>
+                                    <action selector="maleficentButtonTapped:" destination="UWY-SY-LT3" eventType="touchUpInside" id="XTC-Nm-59o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfg-qJ-ysR">
@@ -1082,16 +1326,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="hqj-bF-L3y"/>
+                        <viewLayoutGuide key="safeArea" id="a3Y-Ap-DiX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="xuS-as-VvX"/>
                     <connections>
-                        <outlet property="aquamanButtonTapped" destination="JKB-Li-YGU" id="6th-Cl-iaj"/>
-                        <outlet property="aquamanView" destination="1wX-U5-ae2" id="d8s-Hv-Xm7"/>
                         <outlet property="encantoView" destination="3x4-T7-3eK" id="VZT-yH-tuC"/>
-                        <outlet property="harryPotterWebView" destination="pxj-kN-HLT" id="YmJ-YD-D0W"/>
-                        <outlet property="shangChiButtonTapped" destination="Eqp-ul-xtx" id="T7g-15-8zx"/>
+                        <outlet property="harryPotterView" destination="pxj-kN-HLT" id="lZo-Wh-2RW"/>
+                        <outlet property="maleficentView" destination="1wX-U5-ae2" id="xVB-N5-2c9"/>
                         <outlet property="shangChiView" destination="HJW-F7-btL" id="V23-6z-s5C"/>
                     </connections>
                 </viewController>
@@ -1101,27 +1343,31 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1gb-qd-NWo"/>
+        <segue reference="Dq1-6e-5pd"/>
+        <segue reference="HE2-du-kzC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Untitled design" width="500" height="500"/>
-        <image name="aquamanPoster" width="220" height="326"/>
         <image name="arrowtriangle.left.fill" catalog="system" width="128" height="113"/>
         <image name="batmanPoster" width="1000" height="1482"/>
-        <image name="charlieAndChocolatePoster" width="550" height="812"/>
+        <image name="disneyLogo" width="1200" height="679"/>
         <image name="encantoPoster" width="540" height="810"/>
         <image name="fightClubPoster" width="2021" height="3000"/>
         <image name="forrestGumpPoster" width="1000" height="1450"/>
         <image name="harryPotterPoster" width="1000" height="1481"/>
+        <image name="huluLogo" width="2880" height="945"/>
         <image name="inceptionPoster" width="866" height="1280"/>
         <image name="jurassicPoster" width="494" height="741"/>
         <image name="legallyBlondePoster" width="682" height="1023"/>
+        <image name="maleficentPoster" width="1050" height="1500"/>
+        <image name="meanGirlsPoster" width="1446" height="2048"/>
+        <image name="netflixLogo" width="800" height="450"/>
+        <image name="parasitePoster" width="971" height="1500"/>
         <image name="seniorYearPoster" width="282" height="353"/>
         <image name="shangchiPoster" width="1000" height="1481"/>
         <image name="starWarsPoster" width="456" height="697"/>
         <image name="taxiDriverPoster" width="1890" height="2871"/>
         <image name="theBadGuysPoster" width="178" height="283"/>
-        <image name="theShawshankRedempPoster" width="246" height="445"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
