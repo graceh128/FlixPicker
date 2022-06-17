@@ -26,6 +26,8 @@
 		A36D5351285A538A00EAE9EE /* RandomActionMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36D5350285A538A00EAE9EE /* RandomActionMovieViewController.swift */; };
 		A3A4C465285C5EFE00991967 /* RandomComedyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4C464285C5EFE00991967 /* RandomComedyViewController.swift */; };
 		A3A4C467285C67B900991967 /* StreamingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4C466285C67B900991967 /* StreamingViewController.swift */; };
+		A3A4C469285C839B00991967 /* RandomDramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4C468285C839B00991967 /* RandomDramaViewController.swift */; };
+		A3A4C46B285C8B3200991967 /* RandomFantasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A4C46A285C8B3200991967 /* RandomFantasyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		A36D5350285A538A00EAE9EE /* RandomActionMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomActionMovieViewController.swift; sourceTree = "<group>"; };
 		A3A4C464285C5EFE00991967 /* RandomComedyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomComedyViewController.swift; sourceTree = "<group>"; };
 		A3A4C466285C67B900991967 /* StreamingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamingViewController.swift; sourceTree = "<group>"; };
+		A3A4C468285C839B00991967 /* RandomDramaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDramaViewController.swift; sourceTree = "<group>"; };
+		A3A4C46A285C8B3200991967 /* RandomFantasyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFantasyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				A34EF6BA285B896400247D5F /* FantasyRecViewController.swift */,
 				A3A4C464285C5EFE00991967 /* RandomComedyViewController.swift */,
 				A3A4C466285C67B900991967 /* StreamingViewController.swift */,
+				A3A4C468285C839B00991967 /* RandomDramaViewController.swift */,
+				A3A4C46A285C8B3200991967 /* RandomFantasyViewController.swift */,
 			);
 			path = FlixPicker;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 				A3A4C465285C5EFE00991967 /* RandomComedyViewController.swift in Sources */,
 				A36D534F285A332E00EAE9EE /* ActionRecViewController.swift in Sources */,
 				A3A4C467285C67B900991967 /* StreamingViewController.swift in Sources */,
+				A3A4C46B285C8B3200991967 /* RandomFantasyViewController.swift in Sources */,
 				A36D534D285A306000EAE9EE /* GenreViewController.swift in Sources */,
+				A3A4C469285C839B00991967 /* RandomDramaViewController.swift in Sources */,
 				A35EF423285904E900595659 /* AppDelegate.swift in Sources */,
 				A35EF425285904E900595659 /* SceneDelegate.swift in Sources */,
 				312CA7E8285B7DF900777CE2 /* DramaRecViewController.swift in Sources */,

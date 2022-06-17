@@ -847,10 +847,10 @@
             </objects>
             <point key="canvasLocation" x="2303" y="792"/>
         </scene>
-        <!--View Controller-->
+        <!--Random Drama View Controller-->
         <scene sceneID="Lcq-YP-OnJ">
             <objects>
-                <viewController id="E57-lo-EQz" sceneMemberID="viewController">
+                <viewController id="E57-lo-EQz" customClass="RandomDramaViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ip4-fZ-Rbm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -863,16 +863,16 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="syC-pG-V6i">
-                                <rect key="frame" x="52" y="173" width="315" height="415"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="syC-pG-V6i">
+                                <rect key="frame" x="49.5" y="220" width="315" height="415"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="315" id="6hi-em-ol0"/>
                                     <constraint firstAttribute="height" constant="415" id="VMZ-7c-rXB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="305" id="XTd-RK-OvX"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkK-dN-rvO">
-                                <rect key="frame" x="47" y="755" width="70" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JkK-dN-rvO">
+                                <rect key="frame" x="45" y="787" width="70" height="24"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
                                 <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -884,8 +884,8 @@
                                     <segue destination="8f1-Rg-l3g" kind="show" id="kgi-Yn-0LA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Z-l8-yOm">
-                                <rect key="frame" x="57" y="649" width="305" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35Z-l8-yOm">
+                                <rect key="frame" x="54.5" y="681" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="Ec0-SJ-NAI"/>
                                 </constraints>
@@ -906,9 +906,8 @@
                                     <segue destination="yxs-jp-S3F" kind="show" id="zVf-mG-tpk"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v86-3r-Bpi">
-                                <rect key="frame" x="51" y="117" width="316" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v86-3r-Bpi">
+                                <rect key="frame" x="159.5" y="144" width="95.5" height="42"/>
                                 <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
                                 <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -916,12 +915,122 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Sj-Hz-j51"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="35Z-l8-yOm" firstAttribute="leading" secondItem="0Sj-Hz-j51" secondAttribute="leading" constant="54.5" id="1dN-w8-9NL"/>
+                            <constraint firstItem="v86-3r-Bpi" firstAttribute="top" secondItem="0Sj-Hz-j51" secondAttribute="top" constant="100" id="2Wn-AH-rLZ"/>
+                            <constraint firstItem="JkK-dN-rvO" firstAttribute="top" secondItem="35Z-l8-yOm" secondAttribute="bottom" constant="42" id="FA0-7w-3bS"/>
+                            <constraint firstItem="syC-pG-V6i" firstAttribute="top" secondItem="v86-3r-Bpi" secondAttribute="bottom" constant="34" id="JZr-Nw-Ku3"/>
+                            <constraint firstItem="35Z-l8-yOm" firstAttribute="centerX" secondItem="Ip4-fZ-Rbm" secondAttribute="centerX" id="YSp-ms-jde"/>
+                            <constraint firstItem="0Sj-Hz-j51" firstAttribute="trailing" secondItem="35Z-l8-yOm" secondAttribute="trailing" constant="54.5" id="bpa-tu-BW6"/>
+                            <constraint firstItem="35Z-l8-yOm" firstAttribute="top" secondItem="syC-pG-V6i" secondAttribute="bottom" constant="46" id="dOW-mY-ud9"/>
+                            <constraint firstItem="syC-pG-V6i" firstAttribute="leading" secondItem="0Sj-Hz-j51" secondAttribute="leading" constant="49.5" id="dP6-Ab-qtG"/>
+                            <constraint firstItem="0Sj-Hz-j51" firstAttribute="trailing" secondItem="syC-pG-V6i" secondAttribute="trailing" constant="49.5" id="utk-tG-KHb"/>
+                            <constraint firstItem="v86-3r-Bpi" firstAttribute="centerX" secondItem="Ip4-fZ-Rbm" secondAttribute="centerX" id="wJi-RF-OqN"/>
+                            <constraint firstItem="JkK-dN-rvO" firstAttribute="leading" secondItem="0Sj-Hz-j51" secondAttribute="leading" constant="45" id="zqg-OW-pks"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OUW-Xf-yFm"/>
+                    <connections>
+                        <outlet property="randomDramaPoster" destination="syC-pG-V6i" id="DjW-Gx-0Kt"/>
+                        <outlet property="randomDramaTitle" destination="v86-3r-Bpi" id="weQ-Vj-H5h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zfj-fB-dsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3003" y="792"/>
+        </scene>
+        <!--Random Fantasy View Controller-->
+        <scene sceneID="uDV-hb-W4h">
+            <objects>
+                <viewController id="R09-sP-F1V" customClass="RandomFantasyViewController" customModule="FlixPicker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9bt-bf-AdF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4p-HA-PNe">
+                                <rect key="frame" x="239" y="293" width="62" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1kN-VV-KQu">
+                                <rect key="frame" x="49.5" y="220" width="305" height="415"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="415" id="WBo-oL-RH8"/>
+                                    <constraint firstAttribute="width" constant="305" id="YHP-d7-dr9"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dB-V3-hdL">
+                                <rect key="frame" x="45" y="787" width="70" height="24"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="20"/>
+                                <color key="tintColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Back" image="arrowtriangle.left.fill" catalog="system">
+                                    <color key="titleColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8f1-Rg-l3g" kind="show" id="mnZ-DR-kP4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ma8-9E-80d">
+                                <rect key="frame" x="54.5" y="681" width="295" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="tkv-fP-Ira"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Action">
+                                    <color key="titleColor" red="0.96470588450000005" green="0.96470588450000005" blue="0.93333339689999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="plain" title="Watch movie" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2" strokeOutset="0.0">
+                                        <color key="strokeColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Raleway-Bold" family="Raleway" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.86274516580000005" green="0.4196078479" blue="0.30196079609999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="yxs-jp-S3F" kind="show" id="Gny-qV-oVI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cG4-da-Y0G">
+                                <rect key="frame" x="154.5" y="144" width="95.5" height="42"/>
+                                <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="35"/>
+                                <color key="textColor" red="0.52549022440000004" green="0.61960786580000005" blue="0.50980395079999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qeY-oh-61e"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1kN-VV-KQu" firstAttribute="centerX" secondItem="9bt-bf-AdF" secondAttribute="centerX" id="0Xz-qb-AGH"/>
+                            <constraint firstItem="5dB-V3-hdL" firstAttribute="leading" secondItem="qeY-oh-61e" secondAttribute="leading" constant="45" id="2L2-yp-qFg"/>
+                            <constraint firstItem="cG4-da-Y0G" firstAttribute="top" secondItem="qeY-oh-61e" secondAttribute="top" constant="100" id="FhM-AV-nmi"/>
+                            <constraint firstItem="qeY-oh-61e" firstAttribute="trailing" secondItem="ma8-9E-80d" secondAttribute="trailing" constant="54.5" id="KMp-fz-DRi"/>
+                            <constraint firstItem="qeY-oh-61e" firstAttribute="trailing" secondItem="1kN-VV-KQu" secondAttribute="trailing" constant="49.5" id="LvM-3A-ryj"/>
+                            <constraint firstItem="1kN-VV-KQu" firstAttribute="top" secondItem="cG4-da-Y0G" secondAttribute="bottom" constant="34" id="WEi-Cs-3Mu"/>
+                            <constraint firstItem="ma8-9E-80d" firstAttribute="centerX" secondItem="9bt-bf-AdF" secondAttribute="centerX" id="Wds-ZC-6Ze"/>
+                            <constraint firstItem="5dB-V3-hdL" firstAttribute="top" secondItem="ma8-9E-80d" secondAttribute="bottom" constant="42" id="jvv-3x-uiY"/>
+                            <constraint firstItem="ma8-9E-80d" firstAttribute="top" secondItem="1kN-VV-KQu" secondAttribute="bottom" constant="46" id="lCU-L7-Uh1"/>
+                            <constraint firstItem="ma8-9E-80d" firstAttribute="top" secondItem="1kN-VV-KQu" secondAttribute="bottom" constant="46" id="nCA-WK-323"/>
+                            <constraint firstItem="1kN-VV-KQu" firstAttribute="leading" secondItem="qeY-oh-61e" secondAttribute="leading" constant="49.5" id="nrf-iQ-HQg"/>
+                            <constraint firstItem="cG4-da-Y0G" firstAttribute="centerX" secondItem="9bt-bf-AdF" secondAttribute="centerX" id="pog-5t-4Dp"/>
+                            <constraint firstItem="ma8-9E-80d" firstAttribute="leading" secondItem="qeY-oh-61e" secondAttribute="leading" constant="54.5" id="rqw-0U-aMB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xdt-IP-pp9"/>
+                    <connections>
+                        <outlet property="randomFantasyPoster" destination="1kN-VV-KQu" id="fow-k0-6oi"/>
+                        <outlet property="randomFantasyTitle" destination="cG4-da-Y0G" id="6p8-Fq-HEv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wlZ-Dj-iC8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3758" y="792"/>
         </scene>
         <!--Streaming View Controller-->
         <scene sceneID="awE-iG-gD0">
@@ -932,7 +1041,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-g4-nmc">
-                                <rect key="frame" x="86" y="169" width="242" height="89"/>
+                                <rect key="frame" x="109" y="169" width="196" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -971,7 +1080,7 @@
                                 <color key="textColor" red="0.231372565" green="0.27843138579999999" blue="0.23921570180000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-a5-bpk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-a5-bpk">
                                 <rect key="frame" x="54.5" y="709" width="305" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="dpc-0i-Dli"/>
@@ -991,17 +1100,6 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="8f1-Rg-l3g" kind="show" id="q9X-gS-TVP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTZ-G2-dgM">
-                                <rect key="frame" x="97" y="270" width="220" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="disneyLogo"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="disneyButtonTapped:" destination="yxs-jp-S3F" eventType="touchUpInside" id="7PJ-PQ-YVi"/>
                                 </connections>
                             </button>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cbn-f3-Dse">
@@ -1036,13 +1134,25 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jTZ-G2-dgM">
+                                <rect key="frame" x="111" y="267" width="192" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="disneyLogo"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="disneyButtonTapped:" destination="yxs-jp-S3F" eventType="touchUpInside" id="7PJ-PQ-YVi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cD3-be-5Gp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="lhY-a5-bpk" firstAttribute="centerX" secondItem="JkQ-X0-AHU" secondAttribute="centerX" id="GOz-2U-fSl"/>
+                            <constraint firstItem="cD3-be-5Gp" firstAttribute="bottom" secondItem="lhY-a5-bpk" secondAttribute="bottom" constant="69" id="HKq-eu-Rfs"/>
                             <constraint firstItem="lhY-a5-bpk" firstAttribute="leading" secondItem="cD3-be-5Gp" secondAttribute="leading" constant="54.5" id="M07-pw-eGL"/>
                             <constraint firstItem="cD3-be-5Gp" firstAttribute="trailing" secondItem="lhY-a5-bpk" secondAttribute="trailing" constant="54.5" id="P8c-NI-mmm"/>
+                            <constraint firstItem="lhY-a5-bpk" firstAttribute="centerX" secondItem="JkQ-X0-AHU" secondAttribute="centerX" id="UJl-ss-xb0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3f8-OX-1gq"/>
@@ -1408,6 +1518,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="randomMovieButton:" destination="yIx-nn-jhq" eventType="touchUpInside" id="tpf-gj-Vjv"/>
+                                    <segue destination="R09-sP-F1V" kind="show" id="Ui5-bN-gcf"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harryPotterPoster" translatesAutoresizingMaskIntoConstraints="NO" id="9nL-Cu-DRe">
@@ -1476,7 +1587,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Dq1-6e-5pd"/>
+        <segue reference="Gny-qV-oVI"/>
         <segue reference="q9X-gS-TVP"/>
     </inferredMetricsTieBreakers>
     <resources>
