@@ -10,7 +10,7 @@ import WebKit
 
 class DramaRecViewController: UIViewController {
     @IBOutlet weak var forrestGumpView: WKWebView!
-    @IBOutlet weak var shawshankRedempView: WKWebView!
+    @IBOutlet weak var parasiteView: WKWebView!
     @IBOutlet weak var taxiDriverView: WKWebView!
     @IBOutlet weak var fightClubView: WKWebView!
     
@@ -20,7 +20,7 @@ class DramaRecViewController: UIViewController {
         // Do any additional setup after loading the view
         let googleURL3 = URL(string: "https://www.google.com")
         forrestGumpView.load(URLRequest(url:googleURL3!))
-        shawshankRedempView.load(URLRequest(url:googleURL3!))
+        parasiteView.load(URLRequest(url:googleURL3!))
         taxiDriverView.load(URLRequest(url:googleURL3!))
         fightClubView.load(URLRequest(url:googleURL3!))
     }
@@ -29,8 +29,8 @@ class DramaRecViewController: UIViewController {
         UIApplication.shared.open(googleURL3!)
     }
     
-    @IBAction func shawshankRedempButtonTapped(_ sender: Any) {
-        let googleURL3 = URL(string: "https://www.imdb.com/title/tt0111161/?ref_=adv_li_tt")
+    @IBAction func parasiteButtonTapped(_ sender: Any) {
+        let googleURL3 = URL(string: "https://www.imdb.com/title/tt6751668/")
         UIApplication.shared.open(googleURL3!)
     }
     

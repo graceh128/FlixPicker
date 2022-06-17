@@ -12,7 +12,7 @@ class FantasyRecViewController: UIViewController {
     @IBOutlet weak var harryPotterView: WKWebView!
     @IBOutlet weak var encantoView: WKWebView!
     @IBOutlet weak var shangChiView: WKWebView!
-    @IBOutlet weak var aquamanView: WKWebView!
+    @IBOutlet weak var maleficentView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class FantasyRecViewController: UIViewController {
         harryPotterView.load(URLRequest(url:googleURL4!))
         encantoView.load(URLRequest(url:googleURL4!))
        shangChiView.load(URLRequest(url:googleURL4!))
-        aquamanView.load(URLRequest(url:googleURL4!))
+        maleficentView.load(URLRequest(url:googleURL4!))
     }
     @IBAction func harryPotterButtonTapped(_ sender: Any) {
         let googleURL4 = URL(string: "https://www.imdb.com/title/tt0241527/")
@@ -38,8 +38,8 @@ class FantasyRecViewController: UIViewController {
         let googleURL4 = URL(string: "https://www.imdb.com/title/tt9376612/")
         UIApplication.shared.open(googleURL4!)
     }
-    @IBAction func aquamanButtonTapped(_ sender: Any) {
-        let googleURL4 = URL(string: "https://www.imdb.com/title/tt1477834/")
+    @IBAction func maleficentButtonTapped(_ sender: Any) {
+        let googleURL4 = URL(string: "https://www.imdb.com/title/tt1587310/")
         UIApplication.shared.open(googleURL4!)
     }
     

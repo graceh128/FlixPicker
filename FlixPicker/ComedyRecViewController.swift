@@ -11,7 +11,7 @@ import WebKit
 class ComedyRecViewController: UIViewController {
     @IBOutlet weak var legallyBlondeView: WKWebView!
     @IBOutlet weak var seniorYearView: WKWebView!
-    @IBOutlet weak var charlieAndChocolateView: WKWebView!
+    @IBOutlet weak var meanGirlsView: WKWebView!
     @IBOutlet weak var theBadGuysView: WKWebView!
     
     override func viewDidLoad() {
@@ -21,7 +21,7 @@ class ComedyRecViewController: UIViewController {
         let googleURL2 = URL(string: "https://www.google.com")
         legallyBlondeView.load(URLRequest(url:googleURL2!))
         seniorYearView.load(URLRequest(url:googleURL2!))
-        charlieAndChocolateView.load(URLRequest(url:googleURL2!))
+        meanGirlsView.load(URLRequest(url:googleURL2!))
         theBadGuysView.load(URLRequest(url:googleURL2!))
     }
     @IBAction func legallyBlondeButtonTapped(_ sender: Any) {
@@ -34,8 +34,8 @@ class ComedyRecViewController: UIViewController {
         UIApplication.shared.open(googleURL2!)
     }
     
-    @IBAction func charlieAndChocolateButtonTapped(_ sender: Any) {
-        let googleURL2 = URL(string: "https://www.imdb.com/title/tt0367594/")
+    @IBAction func meanGirlsButtonTapped(_ sender: Any) {
+        let googleURL2 = URL(string: "https://www.imdb.com/title/tt0377092/")
         UIApplication.shared.open(googleURL2!)
     }
     
